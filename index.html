@@ -7,215 +7,491 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <script src="https://use.fontawesome.com/14e9f484c9.js"></script>
     <title>Newsweek</title>
   </head>
   <body>
-    <header class="container-fluid">
-        <div class="row">
-            <div><h6>Thu, Oct 08, 2020</h6></div>
-            <div><h1>Newsweek</h1></div>
-            <a href="#">Login</a>
-            <button type="button" class="btn btn-warning">Subscribe <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
-        </div>
-         <!--------Navbar1--->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-       
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active" href="#">U.S. <span class="sr-only">(current)</span></a>
-                <a class="nav-link" href="#">World</a>
-                <a class="nav-link" href="#">Business</a>
-                <a class="nav-link" href="#">Tech & Science</a>
-                <a class="nav-link" href="#">Culture</a>
-                <a class="nav-link" href="#">Newsgeek</a>
-                <a class="nav-link" href="#">Sports</a>
-                <a class="nav-link" href="#">Health</a>
-                <a class="nav-link" href="#">The Debate</a>
-                <a class="nav-link" href="#">Vantage</a>
-                <a class="nav-link" href="#">Weather</a>
-                <a class="nav-link" href="#">Search <i class="fa fa-search" aria-hidden="true"></i></a>                
+    <header class="container-fluid h-auto m-0 fixed-top">
+      <div class="first-navbar nav1 fixed-top row row-cols-2 row-cols-lg-3 d-sm-flex ">
+          <div class="d-flex flex-column px-4 py-3 align-items-center align-items-lg-start justify-content-sm-start">
+              <div>
+                  <a class="pl-3" href=""><i class="fas fa-bolt"></i><span>29<sup>o</sup></span><span class="d-none d-md-inline-block pl-2" > Dhaka, BD</span></a>
               </div>
-            </div>
-          </nav>
+                  <p class="date text-white pl-3 d-none d-lg-block d-xl-block">Mon, Oct 5, 2020</p>
+              </div>
+          <div class="d-none d-xl-block ml-5 pl-5 pt-1" >
+              <a href="" class="ml-5 pl-5 " >
+                  <img width="396" height="60" class="ml-5 img-fluid " src="images/newsweek-logo.jpg" alt="">
+              </a>
+          </div>
+     
+     <div class=" ml-5 align-self-end pt-3 text-right pb-3 pl-5" >
+          <a class="font-weight-bold pl-5" href="">Login</a>
+          <a class="subscription py-0 py-lg-1 ml-3 font-weight-bold" href="" >SUBSCRIPTION OFFERS  </a>
+          <a class="text-white" href=""><i class="fa fa-bars d-lg-none" ></i></a>
+
+      </div>
+      </div>
+  </header>
+         <!--------Navbar1--->
+         <nav class="header-bottom d-none d-lg-flex d-xl-flex ">
+          <ul class="nav font-weight-bold">
+            <li class="nav-item border-right my-1 px-lg-2 px-xl-3">
+              <a class="nav-link px-lg-0 header-second-a pt-3" href="#">U.S.</a>
+            </li>
+            <li class="nav-item border-right my-1 px-lg-2 px-xl-3">
+              <a class="nav-link px-lg-0 header-second-a pt-3" href="#">World</a>
+            </li>
+            <li class="nav-item border-right my-1 px-lg-2 px-xl-3">
+              <a class="nav-link px-lg-0 header-second-a pt-3" href="#">Business</a>
+            </li>
+            <li class="nav-item border-right my-1 px-lg-2 px-xl-3">
+              <a class="nav-link px-lg-0 header-second-a pt-3" href="#">Tech & Science</a>
+            </li>
+            <li class="nav-item border-right my-1 px-lg-2 px-xl-3">
+              <a class="nav-link px-lg-0 header-second-a pt-3" href="#">Culture</a>
+            </li>
+            <li class="nav-item border-right my-1 px-lg-2 px-xl-3">
+              <a class="nav-link px-lg-0 header-second-a pt-3" href="#">Newsgeek</a>
+            </li>
+            <li class="nav-item border-right my-1 px-lg-2 px-xl-3">
+              <a class="nav-link px-lg-0 header-second-a pt-3" href="#">Sports</a>
+            </li>
+            <li class="nav-item border-right my-1 px-lg-2 px-xl-3">
+              <a class="nav-link px-lg-0 header-second-a pt-3" href="#">Health</a>
+            </li>
+            <li class="nav-item border-right my-1 px-lg-2 px-xl-3">
+              <a class="nav-link px-lg-0 header-second-a pt-3" href="#">The Debate</a>
+            </li>
+            <li class="nav-item border-right my-1 px-lg-2 px-xl-3">
+              <a class="nav-link px-lg-0 header-second-a pt-3" href="#">Vantage</a>
+            </li>
+            <li class="nav-item my-1 px-lg-2 px-xl-3">
+              <a class="nav-link px-lg-0 header-second-apt-3 pt-3" href="#">Weather</a>
+            </li>
+            <li class="nav-item  my-2 px-1 pt-3 ">
+              <input type="text" placeholder="search">
+              <i class="fas fa-search"></i>
+            </li>
+          </ul>
+        </nav>
+       
+           
           <!--------Navbar2--->
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light header-bottom-2  ">
+            <a class="navbar-brand header-third-a pl-3" href="#">TRENDING</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="#">Trending</a>
-              <a class="nav-link" href="#">Donald Trump</a>
-              <a class="nav-link" href="#">Joe Biden</a>
-              <a class="nav-link" href="#">Stimulus Package
-            </a>
-              <a class="nav-link" href="#">Coronavirus</a>
-              <a class="nav-link" href="#">2020 Election</a>
-                
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link header-third-a pl-3" href="#">DONALD TRUMP <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header-third-a pl-3" href="#">JOE BIDEN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header-third-a pl-3" href="#">STIMULUS PACKAGE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link header-third-a pl-3" href="#">CORONAVIRUS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link header-third-a pl-3" href="#">2020 ELECTION</a>
+                  </li>
+              </ul>
             </div>
-          </div>
-        </nav>     
-    </header>
+          </nav>     
+    
+ <!--Featured Stories-->
 
     <div class="container">
-        <div class="row">
+        <div class="row tab">
            <div class="col-lg-3">
-               <h2>FEATURED STORIES</h2>
-               <div class="card" style="width: 18rem;">
-                <img src="https://d.newsweek.com/en/full/1647800/mike-pence-debate-china-censor-coronavirus.webp?w=397&h=265&q=90&f=76ce3f7131fdb69cca1fab87817c81ac" class="card-img-top" alt="...">
-                <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">Politics</h4>
+            <div class="card ml-0" style="width: 19rem;">
+              <h3 class=" feature-title">Featured Stories</h3>
 
-                <div class="card-body ml-0">
-                  <h5 class="card-title">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  
-                </div>
-
+              <img src="https://d.newsweek.com/en/full/1647774/kamala-harris-mike-pence-debate.webp?w=397&h=265&q=90&f=e7d75c41f3fa4a69e81c2eca4af107d8" class="card-img-top" alt="...">
+              <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">TECH & SCIENCE</h4>
+              <div class="card-body pt-2">
+                  <h2 class="font-weight-bold card-title red-line"><a class="text-dark" href="#"> What Could Happen to Facebook Under a Joe Biden Presidency?</a></h2>
+                  <p class="p-content card-text">J.Kyle Bass, who predicted the 2008 housing market crisis,
+                      said the stock markets should be closed to keep people from making emotion decisions with th</p>
               </div>
-              <div class="card" style="width: 18rem;">
-                <img src="https://d.newsweek.com/en/full/1647846/kamala-harris-vice-president-debate.webp?w=397&h=265&q=90&f=10d2274dddf064ef9d8b4f087e3c4b4f" class="card-img-top" alt="...">
-                <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">Politics</h4>
+            </div>
+             
+            <div class="card ml-0" style="width: 19rem;">
+              
 
-                <div class="card-body ml-0">
-                  <h5 class="card-title">Kamala Harris Doesn't Trust Trump's Word on Vaccines. She's Not Alone</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  
-                </div>
-                
+              <img src="https://d.newsweek.com/en/full/1647774/kamala-harris-mike-pence-debate.webp?w=397&h=265&q=90&f=e7d75c41f3fa4a69e81c2eca4af107d8" class="card-img-top" alt="...">
+              <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">TECH & SCIENCE</h4>
+              <div class="card-body pt-2">
+                  <h2 class="font-weight-bold card-title red-line"><a class="text-dark" href="#"> What Could Happen to Facebook Under a Joe Biden Presidency?</a></h2>
+                  <p class="p-content card-text">J.Kyle Bass, who predicted the 2008 housing market crisis,
+                      said the stock markets should be closed to keep people from making emotion decisions with th</p>
               </div>
-              <div class="card" style="width: 18rem;">
-                <img src="https://d.newsweek.com/en/full/1647026/coronavirus-vaccine.webp?w=397&h=265&q=90&f=5b5507bae584118a329fdd40745270dc" class="card-img-top" alt="...">
-                <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">Business</h4>
+            </div>
+            <div class="card ml-0" style="width: 19rem;">
+              
 
-                <div class="card-body ml-0">
-                  <h5 class="card-title">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  
-                </div>
-                
+              <img src="https://d.newsweek.com/en/full/1647774/kamala-harris-mike-pence-debate.webp?w=397&h=265&q=90&f=e7d75c41f3fa4a69e81c2eca4af107d8" class="card-img-top" alt="...">
+              <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">TECH & SCIENCE</h4>
+              <div class="card-body pt-2">
+                  <h2 class="font-weight-bold card-title red-line"><a class="text-dark" href="#"> What Could Happen to Facebook Under a Joe Biden Presidency?</a></h2>
+                  <p class="p-content card-text">J.Kyle Bass, who predicted the 2008 housing market crisis,
+                      said the stock markets should be closed to keep people from making emotion decisions with th</p>
               </div>
-              <div class="card" style="width: 18rem;">
-                <img src="https://d.newsweek.com/en/full/1647800/mike-pence-debate-china-censor-coronavirus.webp?w=397&h=265&q=90&f=76ce3f7131fdb69cca1fab87817c81ac" class="card-img-top" alt="...">
-                <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">Politics</h4>
+            </div>
+            <div class="card ml-0" style="width: 19rem;">
+           
 
-                <div class="card-body ml-0">
-                  <h5 class="card-title">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  
-                </div>
-                
+              <img src="https://d.newsweek.com/en/full/1647774/kamala-harris-mike-pence-debate.webp?w=397&h=265&q=90&f=e7d75c41f3fa4a69e81c2eca4af107d8" class="card-img-top" alt="...">
+              <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">TECH & SCIENCE</h4>
+              <div class="card-body pt-2">
+                  <h2 class="font-weight-bold card-title red-line"><a class="text-dark" href="#"> What Could Happen to Facebook Under a Joe Biden Presidency?</a></h2>
+                  <p class="p-content card-text">J.Kyle Bass, who predicted the 2008 housing market crisis,
+                      said the stock markets should be closed to keep people from making emotion decisions with th</p>
               </div>
-              <div class="card" style="width: 18rem;">
-                <img src="https://d.newsweek.com/en/full/1647800/mike-pence-debate-china-censor-coronavirus.webp?w=397&h=265&q=90&f=76ce3f7131fdb69cca1fab87817c81ac" class="card-img-top" alt="...">
-                <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">Politics</h4>
+            </div>
+            <div class="card ml-0" style="width: 19rem;">
+           
 
-                <div class="card-body ml-0">
-                  <h5 class="card-title">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  
-                </div>
-                
+              <img src="https://d.newsweek.com/en/full/1647774/kamala-harris-mike-pence-debate.webp?w=397&h=265&q=90&f=e7d75c41f3fa4a69e81c2eca4af107d8" class="card-img-top" alt="...">
+              <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">TECH & SCIENCE</h4>
+              <div class="card-body pt-2">
+                  <h2 class="font-weight-bold card-title red-line"><a class="text-dark" href="#"> What Could Happen to Facebook Under a Joe Biden Presidency?</a></h2>
+                  <p class="p-content card-text">J.Kyle Bass, who predicted the 2008 housing market crisis,
+                      said the stock markets should be closed to keep people from making emotion decisions with th</p>
               </div>
-              <div class="card" style="width: 18rem;">
-                <img src="https://d.newsweek.com/en/full/1647800/mike-pence-debate-china-censor-coronavirus.webp?w=397&h=265&q=90&f=76ce3f7131fdb69cca1fab87817c81ac" class="card-img-top" alt="...">
-                <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">Politics</h4>
+            </div>
+            <div class="card ml-0" style="width: 19rem;">
+           
 
-                <div class="card-body ml-0">
-                  <h5 class="card-title">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  
-                </div>
-                
+              <img src="https://d.newsweek.com/en/full/1647774/kamala-harris-mike-pence-debate.webp?w=397&h=265&q=90&f=e7d75c41f3fa4a69e81c2eca4af107d8" class="card-img-top" alt="...">
+              <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">TECH & SCIENCE</h4>
+              <div class="card-body pt-2">
+                  <h2 class="font-weight-bold card-title red-line"><a class="text-dark" href="#"> What Could Happen to Facebook Under a Joe Biden Presidency?</a></h2>
+                  <p class="p-content card-text">J.Kyle Bass, who predicted the 2008 housing market crisis,
+                      said the stock markets should be closed to keep people from making emotion decisions with th</p>
               </div>
-              <div class="card" style="width: 18rem;">
-                <img src="https://d.newsweek.com/en/full/1647800/mike-pence-debate-china-censor-coronavirus.webp?w=397&h=265&q=90&f=76ce3f7131fdb69cca1fab87817c81ac" class="card-img-top" alt="...">
-                <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">Politics</h4>
+            </div>
+            <div class="card ml-0" style="width: 19rem;">
+              
 
-                <div class="card-body ml-0">
-                  <h5 class="card-title">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  
-                </div>
-                
+              <img src="https://d.newsweek.com/en/full/1647774/kamala-harris-mike-pence-debate.webp?w=397&h=265&q=90&f=e7d75c41f3fa4a69e81c2eca4af107d8" class="card-img-top" alt="...">
+              <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">TECH & SCIENCE</h4>
+              <div class="card-body pt-2">
+                  <h2 class="font-weight-bold card-title red-line"><a class="text-dark" href="#"> What Could Happen to Facebook Under a Joe Biden Presidency?</a></h2>
+                  <p class="p-content card-text">J.Kyle Bass, who predicted the 2008 housing market crisis,
+                      said the stock markets should be closed to keep people from making emotion decisions with th</p>
               </div>
-              <div class="card" style="width: 18rem;">
-                <img src="https://d.newsweek.com/en/full/1647800/mike-pence-debate-china-censor-coronavirus.webp?w=397&h=265&q=90&f=76ce3f7131fdb69cca1fab87817c81ac" class="card-img-top" alt="...">
-                <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">Politics</h4>
+            </div>
+            <div class="card ml-0" style="width: 19rem;">
+          
 
-                <div class="card-body ml-0">
-                  <h5 class="card-title">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  
-                </div>
-                
+              <img src="https://d.newsweek.com/en/full/1647774/kamala-harris-mike-pence-debate.webp?w=397&h=265&q=90&f=e7d75c41f3fa4a69e81c2eca4af107d8" class="card-img-top" alt="...">
+              <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">TECH & SCIENCE</h4>
+              <div class="card-body pt-2">
+                  <h2 class="font-weight-bold card-title red-line"><a class="text-dark" href="#"> What Could Happen to Facebook Under a Joe Biden Presidency?</a></h2>
+                  <p class="p-content card-text">J.Kyle Bass, who predicted the 2008 housing market crisis,
+                      said the stock markets should be closed to keep people from making emotion decisions with th</p>
               </div>
-              <div class="card" style="width: 18rem;">
-                <img src="https://d.newsweek.com/en/full/1647800/mike-pence-debate-china-censor-coronavirus.webp?w=397&h=265&q=90&f=76ce3f7131fdb69cca1fab87817c81ac" class="card-img-top" alt="...">
-                <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">Politics</h4>
+            </div>
+            <div class="card ml-0" style="width: 19rem;">
+             
 
-                <div class="card-body ml-0">
-                  <h5 class="card-title">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  
-                </div>
-                
+              <img src="https://d.newsweek.com/en/full/1647774/kamala-harris-mike-pence-debate.webp?w=397&h=265&q=90&f=e7d75c41f3fa4a69e81c2eca4af107d8" class="card-img-top" alt="...">
+              <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">TECH & SCIENCE</h4>
+              <div class="card-body pt-2">
+                  <h2 class="font-weight-bold card-title red-line"><a class="text-dark" href="#"> What Could Happen to Facebook Under a Joe Biden Presidency?</a></h2>
+                  <p class="p-content card-text">J.Kyle Bass, who predicted the 2008 housing market crisis,
+                      said the stock markets should be closed to keep people from making emotion decisions with th</p>
               </div>
-              <div class="card" style="width: 18rem;">
-                <img src="https://d.newsweek.com/en/full/1647800/mike-pence-debate-china-censor-coronavirus.webp?w=397&h=265&q=90&f=76ce3f7131fdb69cca1fab87817c81ac" class="card-img-top" alt="...">
-                <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">Politics</h4>
+            </div>
+            <div class="card ml-0" style="width: 19rem;">
+             
 
-                <div class="card-body ml-0">
-                  <h5 class="card-title">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  
-                </div>
-                
+              <img src="https://d.newsweek.com/en/full/1647774/kamala-harris-mike-pence-debate.webp?w=397&h=265&q=90&f=e7d75c41f3fa4a69e81c2eca4af107d8" class="card-img-top" alt="...">
+              <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">TECH & SCIENCE</h4>
+              <div class="card-body pt-2">
+                  <h2 class="font-weight-bold card-title red-line"><a class="text-dark" href="#"> What Could Happen to Facebook Under a Joe Biden Presidency?</a></h2>
+                  <p class="p-content card-text">J.Kyle Bass, who predicted the 2008 housing market crisis,
+                      said the stock markets should be closed to keep people from making emotion decisions with th</p>
               </div>
-              <div class="card" style="width: 18rem;">
-                <img src="https://d.newsweek.com/en/full/1647800/mike-pence-debate-china-censor-coronavirus.webp?w=397&h=265&q=90&f=76ce3f7131fdb69cca1fab87817c81ac" class="card-img-top" alt="...">
-                <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">Politics</h4>
+            </div>
+            <div class="card ml-0" style="width: 19rem;">
+            
 
-                <div class="card-body ml-0">
-                  <h5 class="card-title">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  
-                </div>
-                
+              <img src="https://d.newsweek.com/en/full/1647774/kamala-harris-mike-pence-debate.webp?w=397&h=265&q=90&f=e7d75c41f3fa4a69e81c2eca4af107d8" class="card-img-top" alt="...">
+              <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">TECH & SCIENCE</h4>
+              <div class="card-body pt-2">
+                  <h2 class="font-weight-bold card-title red-line"><a class="text-dark" href="#"> What Could Happen to Facebook Under a Joe Biden Presidency?</a></h2>
+                  <p class="p-content card-text">J.Kyle Bass, who predicted the 2008 housing market crisis,
+                      said the stock markets should be closed to keep people from making emotion decisions with th</p>
               </div>
+            </div>
            </div> 
+
+          <!--Top Story-->
         
-            <div class="col-lg-5">
-                <div class="card">
-                    <img src="https://d.newsweek.com/en/full/1647774/kamala-harris-mike-pence-debate.webp?w=591&h=364&f=635a66dc8286fbb5b1547b08dc6fda91" class="card-img-top" alt="...">
-                    <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">U.S.</h4>
-                    <div class="card-body ml-0">
-                      <h5 class="card-title">Some quick example text to build on the card title and make up the bulk of the card's content.</h5>
-                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum soluta eum quam quis dignissimos quasi, omnis laborum temporibus iure id, consequuntur eligendi aliquid ipsam perferendis tenetur nesciunt quibusdam amet culpa.</p>
-                    </div>
-                </div>
-            <div class="row">
-                <div class="col-lg">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://d.newsweek.com/en/full/1646981/wildlife-coyote-peterson-stings-bees.webp?w=397&h=397&f=59f0ab5a6eafd874d699b95cd6019c70" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <p class="card-text">'I Get Dangerous Creatures to Bite and Sting Me on Purpose'.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://d.newsweek.com/en/full/1646981/wildlife-coyote-peterson-stings-bees.webp?w=397&h=397&f=59f0ab5a6eafd874d699b95cd6019c70" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <p class="card-text">'I Get Dangerous Creatures to Bite and Sting Me on Purpose'.</p>
-                        </div>
-                    </div>
-                </div>
+           <div class="col-lg-5 top-story col-md-6 col-xs-12 mt-md-5 mt-lg-0">
+            <div class="card border-0">
+                <h4 class="text-warning font-weight-bold">TOP STORY</h4>
+                <img src="https://d.newsweek.com/en/full/1647998/biden-vs-trump.webp?w=591&h=364&f=812e56c2b8c26016f97ff5e4e923478f" class="card-img-top" alt="...">
+            <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">TECH & SCIENCE</h4>
+            <div class="card-body pt-2">
+                <h2 class="font-weight-bold card-title red-line"><a class="text-dark" href="#"> What Could Happen to Facebook Under a Joe Biden Presidency?</a></h2>
+                <p class="p-content card-text">J.Kyle Bass, who predicted the 2008 housing market crisis,
+                    said the stock markets should be closed to keep people from making emotion decisions with th</p>
+            </div>
+          </div>
+
+          <!--My Turn-->
+
+<div class="d-none d-md-block d-lg-block d-xl-block">
+<div class="mt-4 mb-2 deep-link">MY TURN</div>
+
+<div class="row mb-3">
+  <article class="col-md-4">
+    <a href="#"><img src="https://d.newsweek.com/en/full/1647856/castle-renovation-home-improvements-property-home.webp?w=397&h=397&f=91fe2e26c0e05a47b1b9841fdaafc664" class="card-img-top"
+        alt="lockdown"></a>
+    <div class="card-body px-0 py-0">
+      <h5 class="display-inline-block deep-link pt-2 mb-1"> <a href="#">I'm Locked Down
+          in Italy Playing Music—But I'm More Worried About America</a></h5>
+      <p class="card-text">Two American musicians play a nightly concert on their balcony while quarantined
+        in
+        their newly adopted home in Italy. It's a gift for their neighbors, but they also have a strong
+        message for Americans, too.</p>
+    </div>
+  </article>
+
+  <article class="col-md-4">
+    <a href="#"><img src="https://d.newsweek.com/en/full/1646981/wildlife-coyote-peterson-stings-bees.webp?w=397&h=397&f=59f0ab5a6eafd874d699b95cd6019c70" class="card-img-top" alt="time-square"></a>
+    <div class="card-body px-0 py-0">
+      <h5 class="display-inline-block deep-link pt-2 mb-1"> <a href="#">Social Distancing Around the World
+          in
+          Photos</a></h5>
+      <p class="card-text">From Rome's desolate Spanish Steps to New York's deserted Times Square, take a
+        look
+        at some of the world's busiest landmarks that are all now but eerily empty.</p>
+    </div>
+  </article>
+
+  <article class="col-md-4">
+    <a href="#"><img src="https://d.newsweek.com/en/full/1646357/coronavirus-pandemic-death-family.webp?w=397&h=397&f=742d6559dd401252982aaf8aaf99ffc4" class="card-img-top"
+        alt="breakfast-lunch-dinner"></a>
+    <div class="card-body px-0 py-0">
+      <h5 class="display-inline-block deep-link pt-2 mb-1"> <a href="#">Wanderlust Stricken? The 10 Best
+          Travel TV Shows to Watch Now</a></h5>
+      <p class="card-text">Travelers can still explore the world while binge-watching these travel TV shows
+        in
+        home isolation. Thanks to streaming services, we can virtually send ourselves to nearly any and
+        every
+        part of the planet in just a few clicks.</p>
+    </div>
+  </article>
+
+</div>
+</div>
+<div class="d-none d-md-block d-lg-block d-xl-block">
+<div class="mt-4 mb-2 deep-link">CULTURE & TRAVEL</div>
+
+<div class="row mb-3">
+  <article class="col-md-4">
+    <a href="#"><img src="https://d.newsweek.com/en/full/1645381/100-best-rock-albums-all-time-according-critics.webp?w=397&h=397&f=4fac5a43a9d8890fa4ae6281e59ace15" class="card-img-top"
+        alt="lockdown"></a>
+        <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">TRSVEL</h4>
+    <div class="card-body px-0 py-0">
+      <h5 class="display-inline-block deep-link pt-2 mb-1"> <a href="#">I'm Locked Down
+          in Italy Playing Music—But I'm More Worried About America</a></h5>
+      <p class="card-text">Two American musicians play a nightly concert on their balcony while quarantined
+        in
+        their newly adopted home in Italy. It's a gift for their neighbors, but they also have a strong
+        message for Americans, too.</p>
+    </div>
+  </article>
+
+  <article class="col-md-4">
+    <a href="#"><img src="https://d.newsweek.com/en/full/1641887/cul-map-wes-anderson-white-cyclon-banner.webp?w=397&h=397&l=57&t=47&f=e5942c36302659ac5aa06f4fe5a7f5f1" class="card-img-top" alt="time-square"></a>
+    <div class="card-body px-0 py-0">
+        <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">TECH & SCIENCE</h4>
+      <h5 class="display-inline-block deep-link pt-2 mb-1"> <a href="#">Social Distancing Around the World
+          in
+          Photos</a></h5>
+      <p class="card-text">From Rome's desolate Spanish Steps to New York's deserted Times Square, take a
+        look
+        at some of the world's busiest landmarks that are all now but eerily empty.</p>
+    </div>
+  </article>
+
+  <article class="col-md-4">
+    <a href="#"><img src="https://d.newsweek.com/en/full/1640554/zendaya.webp?w=397&h=397&f=8e5f8ea8c3c7d315e48c42d9d4ae7f63" class="card-img-top"
+        alt="breakfast-lunch-dinner"></a>
+        <h4 class=" card-title  text-danger  font-weight-bold   bottom-left">TECH & SCIENCE</h4>
+    <div class="card-body px-0 py-0">
+      <h5 class="display-inline-block deep-link pt-2 mb-1"> <a href="#">Wanderlust Stricken? The 10 Best
+          Travel TV Shows to Watch Now</a></h5>
+      <p class="card-text">Travelers can still explore the world while binge-watching these travel TV shows
+        in
+        home isolation. Thanks to streaming services, we can virtually send ourselves to nearly any and
+        every
+        part of the planet in just a few clicks.</p>
+    </div>
+  </article>
+
+</div>
+</div>
+<!--More Stories-->
+<div>
+  <a href="" class="text-muted font-weight-bold h4">More Stories</a>
+</div>
+<hr>
+<div class="card">
+  <div class="d-flex">
+      <a href="" class=""><img src="https://d.newsweek.com/en/full/1645910/trump.webp?w=95&h=95&f=fde6b4264187ed86328805f081f1490e" alt=""></a>
+      <div class="pl-3">
+          <a class="h5" href="">'Trump Defeats COVID' Coin Goes on Sale at Unofficial White House Gift Shop</a>
+          <p class="">The coin is available for pre-order online, with buyers due to be shipped the item later in the year. </p>
+      </div>
+  </div>
+  <hr>
+
+
+</div>
+<div class="card">
+<div class="d-flex">
+    <a href="" class=""><img src="https://d.newsweek.com/en/full/1645910/trump.webp?w=95&h=95&f=fde6b4264187ed86328805f081f1490e" alt=""></a>
+    <div class="pl-3">
+        <a class="h5" href="">'Trump Defeats COVID' Coin Goes on Sale at Unofficial White House Gift Shop</a>
+        <p class="">The coin is available for pre-order online, with </p>
+    </div>
+</div>
+<hr>
+
+
+</div>
+<div class="card">
+<div class="d-flex">
+    <a href="" class=""><img src="https://d.newsweek.com/en/full/1645910/trump.webp?w=95&h=95&f=fde6b4264187ed86328805f081f1490e" alt=""></a>
+    <div class="pl-3">
+        <a class="h5" href="">'Trump Defeats COVID' Coin Goes on Sale at Unofficial White House Gift Shop</a>
+        <p class="">The coin is available for pre-order online, with </p>
+    </div>
+</div>
+<hr>
+
+
+</div>
+<div class="card">
+<div class="d-flex">
+    <a href="" class=""><img src="https://d.newsweek.com/en/full/1645910/trump.webp?w=95&h=95&f=fde6b4264187ed86328805f081f1490e" alt=""></a>
+    <div class="pl-3">
+        <a class="h5" href="">'Trump Defeats COVID' Coin Goes on Sale at Unofficial White House Gift Shop</a>
+        <p class="">The coin is available for pre-order online, with </p>
+    </div>
+</div>
+<hr>
+
+
+</div>
+<div class="card">
+<div class="d-flex">
+    <a href="" class=""><img src="https://d.newsweek.com/en/full/1645910/trump.webp?w=95&h=95&f=fde6b4264187ed86328805f081f1490e" alt=""></a>
+    <div class="pl-3">
+        <a class="h5" href="">'Trump Defeats COVID' Coin Goes on Sale at Unofficial White House Gift Shop</a>
+        <p class="">The coin is available for pre-order online, with </p>
+    </div>
+</div>
+<hr>
+
+
+</div>
+<div class="card">
+<div class="d-flex">
+    <a href="" class=""><img src="https://d.newsweek.com/en/full/1645910/trump.webp?w=95&h=95&f=fde6b4264187ed86328805f081f1490e" alt=""></a>
+    <div class="pl-3">
+        <a class="h5" href="">'Trump Defeats COVID' Coin Goes on Sale at Unofficial White House Gift Shop</a>
+        <p class="">The coin is available for pre-order online, with </p>
+    </div>
+</div>
+<hr>
+
+
+</div>
+<div class="card">
+<div class="d-flex">
+    <a href="" class=""><img src="https://d.newsweek.com/en/full/1645910/trump.webp?w=95&h=95&f=fde6b4264187ed86328805f081f1490e" alt=""></a>
+    <div class="pl-3">
+        <a class="h5" href="">'Trump Defeats COVID' Coin Goes on Sale at Unofficial White House Gift Shop</a>
+        <p class="">The coin is available for pre-order online, with </p>
+    </div>
+</div>
+<hr>
+
+
+</div>
+<div class="card">
+<div class="d-flex">
+    <a href="" class=""><img src="https://d.newsweek.com/en/full/1645910/trump.webp?w=95&h=95&f=fde6b4264187ed86328805f081f1490e" alt=""></a>
+    <div class="pl-3">
+        <a class="h5" href="">'Trump Defeats COVID' Coin Goes on Sale at Unofficial White House Gift Shop</a>
+        <p class="">The coin is available for pre-order online, with </p>
+    </div>
+</div>
+<hr>
+
+
+</div>
+<div class="card">
+<div class="d-flex">
+    <a href="" class=""><img src="https://d.newsweek.com/en/full/1645910/trump.webp?w=95&h=95&f=fde6b4264187ed86328805f081f1490e" alt=""></a>
+    <div class="pl-3">
+        <a class="h5" href="">'Trump Defeats COVID' Coin Goes on Sale at Unofficial White House Gift Shop</a>
+        <p class="">The coin is available for pre-order online, with </p>
+    </div>
+</div>
+<hr>
+
+
+</div>
+<div class="card mt-4">
+<div class="d-flex py-1">
+    <a href="" class="align-self-center"><img src="https://d.newsweek.com/en/full/1645910/trump.webp?w=95&h=95&f=fde6b4264187ed86328805f081f1490e" alt=""></a>
+    <div class="pl-3">
+        <a class="h5" href="">'Trump Defeats COVID' Coin Goes on Sale at Unofficial White House Gift Shop</a>
+        <p class="">The coin is available for pre-order online, with </p>
+    </div>
+</div>
+<hr>
+
+
+</div>
+<div class="card">
+<div class="d-flex">
+    <a href="" class=""><img src="https://d.newsweek.com/en/full/1645910/trump.webp?w=95&h=95&f=fde6b4264187ed86328805f081f1490e" alt=""></a>
+    <div class="pl-3">
+        <a class="h5" href="">'Trump Defeats COVID' Coin Goes on Sale at Unofficial White House Gift Shop</a>
+        <p class="">The coin is available for pre-order online, with </p>
+    </div>
+</div>
+<hr>
+
+
+</div>
+<div class="card">
+<div class="d-flex">
+    <a href="" class=""><img src="https://d.newsweek.com/en/full/1645910/trump.webp?w=95&h=95&f=fde6b4264187ed86328805f081f1490e" alt=""></a>
+    <div class="pl-3">
+        <a class="h5" href="">'Trump Defeats COVID' Coin Goes on Sale at Unofficial White House Gift Shop</a>
+        <p class="">The coin is available for pre-order online, with </p>
+    </div>
+</div>
+<hr>
+</div>
+
+</div>
 
   
 

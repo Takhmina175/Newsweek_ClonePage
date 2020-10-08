@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+
+  .first-navbar {
+    background-color: #f72210;
+  
+}
+
+.subscription {
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+    background-color: yellow;
+    padding: 10px;
+    
+}
+
+
+    .nav1::after {
+        content: " ";
+        position: absolute;
+        right: 0;
+        height: 0;
+        top: 90px;
+        border-top: 30px solid #f72210;
+        border-left: 40px solid transparent;
+        padding-right: 80px;
+        
+      }
+
+      .header-bottom {
+        height: 4rem;
+        margin-top: 6rem;
+        background-color: lightgrey;
+        
+         
+          
+      }
+      .header-second-a {
+          color: black;
+          font-weight: bold;
+          
+      }
+      .nav-item input {
+         border: none;
+         width: 50px;
+      }
+
+      .header-bottom-2 {
+
+        margin-top: 0rem
+        
+
+      }
+      .header-third-a {
+        font-weight: bold;
+        
+    }
+
+    .container {
+        margin-top: 0rem;
+    }
+
+    .tab {
+        margin-left: -80px;
+    }
+    .card {
+        border: none;
+        position: relative;
+        text-align: left;
+
+    }
+    .bottom-left {
+        position: relative;
+        bottom: 30px;
+        background-color: antiquewhite;
+        width: 75%;
+        font-size: 16px;
+        
+    }
+    .feature-title {
+        color: rgb(3, 3, 3, .4);
+        font-size: 16px;
+
+    }
+
+    .top-story {
+        margin-left: 40px;
+        margin-top: 12px;
+        padding-top: 5px;
+    }
+
+    .center-text {
+      width: 25px;
+      height: 25px;
+      background-color: black;
+      border-radius: 50%;
+      position: absolute;
+      color: white;
+      text-align: center;
+      top: 44%;
+      left: 48.5%;
+    }
