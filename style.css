@@ -106,3 +106,57 @@
       top: 44%;
       left: 48.5%;
     }
+    
+.br-none{
+    border: none;
+}
+.rnd-circle{
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    width: 10%;
+    height: 3%;
+    margin: 0 auto;
+    position: absolute;
+    top: 11%;
+    left: 43%;  
+}
+.br-style{
+    border-bottom: double;
+    color: #d9d9d9;
+}
+
+.border-btm{
+    border-bottom: 5px solid #d9d9d9;
+}
+.img{
+    background-image: url(images/kamala-harris-mike-pence-debate\ .jpg);
+      
+}
+.img-prop{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 54%; 
+}
+.bck-cl{
+    background-color: #e9e9e9;
+    color: red;
+    border-radius: 0
+}
+.img-1{
+    background-image: url(images/donald-trump-joe-biden.webp);  
+}
+.img-cult-trvl-1{
+    background-image:url(images/cul-trvl-1.png);
+}
+.img-cult-trvl-2{
+    background-image:url(images/cul-trvl-2.jpg);
+}
+.img-cult-trvl-3{
+    background-image:url(images/cul-trvl-3.jpg);
+}
+.more-stories-img{
+    width: 100%;
+    height: auto;
+}
