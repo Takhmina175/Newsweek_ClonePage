@@ -37,9 +37,7 @@
         height: 4rem;
         margin-top: 6rem;
         background-color: lightgrey;
-        
-         
-          
+                
       }
       .header-second-a {
           color: black;
@@ -177,4 +175,46 @@
 }
 .rt-sdbr-img-6{
     background-image: url(images/rt-sdbr-img-6.png);
+}
+.inthe-mgz-img1{
+    background-image: url(images/cover-1.jpg);
+}
+.inthe-mgz-img1-prop{
+    padding-top: 120%; 
+}
+.inthe-mgz-img2{
+    background-image: url(images/cover-2.jpg);
+}
+.inthe-mgz-img3{
+    background-image: url(images/cover-3.jpg);
+}
+.inthe-mgz-img4{
+    background-image: url(images/cover-4.jpg);
+}
+.inthe-mgz-img5{
+    background-image: url(images/cover-5.jpg);
+}
+.inthe-mgz-img6{
+    background-image: url(images/cover-6.jpg);
+}
+.inthe-mgz-img7{
+    background-image: url(images/cover-7.jpg);
+}
+.inthe-mgz-img8{
+    background-image: url(images/british-international-school-washington.jpg);
+}
+.mag-cat{
+    color: white;
+    font-weight: 600;
+    padding: 11px;
+    background: red;
+}
+.br-radius{
+    border-radius: 0
+}
+.inthe-mgz-img-prop{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 92%;
+    background-position-x: center; 
 }
