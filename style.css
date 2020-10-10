@@ -16,6 +16,16 @@
     border-radius: 15px;
     color: black;
 }
+
+.nav-2 {
+  margin-top: 130px;
+  padding-left: 20px;
+ 
+    }
+
+    .nav-2 ul li {
+        list-style: none;
+    }
 .nav-bar-height{
     height: 140px;
     background-color: #fe0500;
