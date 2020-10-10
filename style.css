@@ -8,8 +8,13 @@
       background-color: #fe0500;
   }
 
-.brd-radius{
+  header a {
+      color: white;
+  }
+
+.subscribe{
     border-radius: 15px;
+    color: black;
 }
 .nav-bar-height{
     height: 140px;
