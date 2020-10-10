@@ -33,6 +33,26 @@
 
   }  
 
+  .top-story {
+      font-size: 14px;
+  }
+
+  .bck-cl {
+      font-weight: bold;
+  }
+
+  .my-turn {
+      font-size: 14px;
+  }
+  .cult-trav {
+      
+      color: black;
+  }
+
+  .title {
+      font-size: 18px;
+  }
+
 
 
 .nav-bar-height{
