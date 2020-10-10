@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
 
+  header {
+      background-color: #fe0500;
+  }
+
 .brd-radius{
     border-radius: 15px;
 }

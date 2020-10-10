@@ -12,38 +12,44 @@
     <title>Newsweek</title>
   </head>
   <body>
-    <header class="container-fluid"> 
-        <div class="row border align-items-center nav-bar-height">
-          <div class="col">
-            <a class="pl-3" href=""><i class="fas fa-bolt"></i><span>29<sup>o</sup></span><span class="d-none d-md-inline-block pl-2" > Dhaka, BD</span></a>
-            <h5 class="pt-3">Mon, Oct 5, 2020</h5>                        
-          </div>
-          <div class="col-6 text-lg-center">
-            <img src="images/newsweek-logo.jpg" alt="">
-          </div>
-          <div class="col">
-          <div class="d-flex justify-content-end">
-            <button type="button" class="btn btn-link">Login</button>
-             <button type="button" class="btn btn-warning brd-radius">SUBSCRIPTION OFFER 
-               <i class="fa fa-chevron-right" aria-hidden="true"></i></button>   
-          </div>
-          </div>
-        </div>
-        <div class="row p-4 border-bottom">
-          <div class="col border-right"><a href="#">U.S.</a></div>
-          <div class="col border-right"><a href="#"> World</a></div>
-          <div class="col border-right"><a href="#">Business</a></div>
-          <div class="col border-right"><a href="#">Tech & Science</a></div>
-          <div class="col border-right"><a href="#">Culture</a></div>
-          <div class="col border-right"><a href="#">Newsgeek</a></div>
-          <div class="col border-right"><a href="#">Sports</a></div>
-          <div class="col border-right"><a href="#">Health</a></div>
-          <div class="col border-right"><a href="#">The Debate</a></div>
-          <div class="col border-right"><a href="#">Vantage</a></div>
-          <div class="col border-right"><a href="#">Weather</a></div>
-          <div class="col border-right"><a href="#">Search</a>
-          <i class="fa fa-search" aria-hidden="true"></i></div>
-        </div>
+    <header class="container-fluid fixed-top">
+        <nav class="navbar nav1 navbar-light text-light page-header py-2 d-none d-lg-flex">
+            <div class="ml-1">
+              <div class="d-inline-flex">
+                 <img src="https://g.newsweek.com/img/weather/28.png" width="24" height="24" class="mt-3" alt=""/>
+                 <a href="" class="mt-3 pl-2 city-date"> 31° Dhaka, BD </a>
+              </div> 
+              <p class="city-date">Sat, Oct 10, 2020</p>
+            </div>
+            <img src="images/newsweek-logo.jpg" class="logo  pl-5 img-fluid" width="496" height="60" alt="" />
+            <div class=" flex-xs-6 flex-xs ai-c jc-fe d-flex  log-sub" >
+                <a href=""  class="login font-weight-bold ">LOGIN</a>
+               <a href="" class=" bg-warning  font-weight-bold  subscribe ml-4  " >SUBSCRIPTION OFFERS ></a>
+            </div>
+        </nav>
+        
+    </header>
+    <div class="row cat-nav d-none d-lg-flex bg-white">
+      <ul class="d-flex justify-content-start bld container-fluid mb-0">
+        <li id="no-border"><a class="no-underline" href="">U.S</a></li>
+        <li><a class="no-underline" href="">World</a></li>
+        <li><a class="no-underline" href="">Business</a></li>
+        <li><a class="no-underline" href="">Tech</a></li>
+        <li><a class="no-underline" href="">Culture</a></li>
+        <li><a class="no-underline" href="">Newsgeek</a></li>
+        <li><a class="no-underline" href="">Sports</a></li>
+        <li><a class="no-underline" href="">Health</a></li>
+        <li><a class="no-underline" href="">The Debate</a></li>
+        <li><a class="no-underline" href="">Vantage</a></li>
+        <li><a class="no-underline" href="">Weather</a></li>
+        <li><form >
+          <input type="text" placeholder="Search"><i class="fas fa-search"></i>
+        </form></li>
+      </ul>
+      
+  
+      <div class="angle"></div>
+    </div>
         <div class="row">
           <div class="col-8 p-4 border-bottom">
             <ul class="nav">
@@ -69,7 +75,7 @@
           </div>
           <div class="col-4 border-bottom"></div>
         </div>  
-    </header>    
+     
     
     <div class="container-fluid mt-3">
         <div class="row">
