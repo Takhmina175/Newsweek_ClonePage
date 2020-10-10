@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
 
+  body {
+      background-color: ;
+  }
+
   header {
       background-color: #fe0500;
   }
@@ -62,12 +66,18 @@
       margin-top: 23px;
       margin-left: 17px;
       margin-right: 17px;
+      background-color: lightgray;
   }
 
   .articles-title {
       font-size: 18px;
       font-weight: bold;
 
+  }
+
+  .features {
+      font-size: 16px;
+      text-align: center;
   }
 
 
@@ -104,7 +114,7 @@
     border-bottom: 5px solid #d9d9d9;
 }
 .img{
-    background-image: url(images/kamala-harris-mike-pence-debate\ .jpg);
+    background-image: url(https://d.newsweek.com/en/full/1647965/scientist-lab-stock.webp?w=397&h=265&f=3cd244d8481d886c7a016fdf11474a3f);
       
 }
 .img-prop{
@@ -118,8 +128,8 @@
     border-radius: 0
 }
 .bttn-w-h{
-    width: 16%;
-    height: 51px;
+    width: 12%;
+    height: 40px;
 }
 .card-customize {
     height: 235px;
@@ -193,7 +203,8 @@
     background: red;
 }
 .br-radius{
-    border-radius: 0
+    border-radius: 0;
+    background-color:#f4f5f6;
 }
 .inthe-mgz-img-prop{
     background-repeat: no-repeat;
