@@ -12,8 +12,17 @@
     background-color: #fe0500;
     color: white;
 }
+.navbar-logo{
+    width: 28%;
+}
+.navbar-h-tab-mob{
+    height: 100px;
+}
 .br-none{
     border: none;
+}
+.btn-ht{
+    height: 2rem;
 }
 .rnd-circle{
     background-color: black;
