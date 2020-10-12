@@ -5,6 +5,7 @@ The project was created based on an  site of newsweek.com . The goal for this ex
 ## Built With
 - HTML5
 - CSS3
+-BOOTSTARP4
 ## Live Demo
 [Live Demo Link](https://rawcdn.githack.com/Takhmina175/Newsweek_ClonePage/ec440bb54d970552a26d0dab6f949233f39654eb/index.html)
 ## Getting Started
@@ -36,7 +37,7 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page]
 
 ## Show your support
-Give a star if you like this project!
+Give a star if you like this project!!!
 
 ## Acknowledgments
 - Hat tip to anyone whose code was used
