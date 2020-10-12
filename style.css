@@ -31,6 +31,52 @@
 
   }  
 
+  @media (min-width: 768px) {
+    .login-nav,
+    .offer-nav {
+      display: none;
+    }
+  
+    .user-nav {
+      display: none;
+      visibility: hidden;
+    }
+  
+    .first-sponsor,
+    .second-sponsor {
+      display: none;
+    }
+  
+    .medium-none {
+      display: none;
+    }
+  
+    .medium-show {
+      display: initial;
+    }
+  
+    .img-sub-1 {
+      left: 40px;
+      top: 0;
+      margin-left: -25px;
+    }
+  
+    .img-sub-2 {
+      left: 20px;
+      top: 8px;
+    }
+  
+    .imgs-sec {
+      height: 280px;
+    }
+  }
+  
+    
+
+
+
+  
+
   .top-story {
       font-size: 14px;
   }
