@@ -4,23 +4,21 @@
   box-sizing: border-box;
   font-size: 16px;
 }
+
 .text-black {
   color: black;
   font-weight: 900;
   font-size: 0.9rem;
 }
-  
 .max-w-total {
   max-width: 1320px;
 }
-  
 .black-font-big {
   font-size: 1.25rem;
   font-weight: bold;
   color: black;
   line-height: 1.6rem;
 }
-  
 .black-font-opinion {
   font-size: 1.1rem;
   font-weight: bold;
@@ -34,33 +32,26 @@
   color: black;
   line-height: 20px;
 }
-  
 .story-h1 {
   font-size: 1rem;
   color: #9a9a9a;
   font-weight: 600;
 }
-  
 .small-font {
   font-size: 0.9rem;
   font-family: Arial, Helvetica, sans-serif;
 }
-  
 .medium-font {
   font-size: 1.6rem;
 }
-  
 .primary-font {
   font-family: Arial, Helvetica, sans-serif;
 }
-
 /*-------HEADER------*/
-  
 .header-logo {
   width: 132px;
   height: 20px;
 }
-
 .btn-warning {
   font-size: 1rem;
   font-weight: bold;
@@ -71,19 +62,16 @@
   background-color: #ffe400;
   padding: 2px 3px;
 }
-  
 .fa-user,
 .fa-bars {
   color: #fdc8c3;
 }
-
 .extra-nav {
   right: 0;
   top: 0;
   width: 80px;
   height: 18px;
 }
-  
 .extra-nav-2 {
   right: 80px;
   top: 0;
@@ -92,32 +80,25 @@
   border-top: 18px solid #f72210;
   border-left: 20px solid transparent;
 }
-  
-  /*---FEATURE STORIES-----*/
-  
+/*---FEATURE STORIES-----*/
 .art-story a {
-    font-size: 1.2rem;
-    color: black;
-    line-height: 1.5rem;
-  }
-  
+  font-size: 1.2rem;
+  color: black;
+  line-height: 1.5rem;
+}
 .art-story p {
   font-size: 0.81rem;
   line-height: 1.125rem;
 }
-
 .border-top-gross {
   border-top: 4px solid #d9d9d9;
 }
-  
 .border-bottom-gross {
   border-bottom: 4px solid #d9d9d9;
 }
-  
 .border-top-double {
   border-top: 3px double #d9d9d9;
 }
-  
 .border-top-double::before {
   content: "vs";
   font-size: 1.2rem;
@@ -131,52 +112,42 @@
   left: 50%;
   padding: 0.1rem 0.3rem;
 }
-  
 .text-form-size {
   font-size: 1.187rem;
 }
-
 .font-title-more-stories {
   font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
   font-size: 1.05rem;
   color: black;
   font-weight: 700;
 }
-  
 .font-p-more-stories {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.81rem;
   color: black  
 }
-  
 .font-p-my-turn {
   font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
   font-size: 1rem;
   color: #818181;
 }
-  
- /*-----IN THE MAGAZINE------*/
-  
+/*-----IN THE MAGAZINE------*/
 .after-cover-text {
   color: #f72210;
   font-weight: bold;
 }
-  
- /*------EDITOR'S PICK------*/
-  
+/*------EDITOR'S PICK------*/
 .editor-pick-text {
   font-size: 0.81rem;
   line-height: 18px;
   color: #555;
 }
-  
 .black-font-news {
   font-size: 1rem;
   font-weight: 700;
   line-height: 1rem;
   color: black;
 }
-  
 .font-text-us {
   font-size: 1rem;
   font-weight: 700;
@@ -184,19 +155,16 @@
   color: black;
   font-family: "roboto condensed", Arial, Helvetica, sans-serif;
 }
-  
 .img-sub-1 {
   left: -50px;
   top: 0;
   margin-left: 25px;
 }
-  
 .img-sub-2 {
   left: -30px;
   top: 8px;
   margin-left: 60px;
 }
-  
 .n-btn {
   font-weight: bold;
   font-size: 0.8rem;
@@ -205,39 +173,31 @@
   height: 40px;
   border-radius: 5px;
 }
-  
-  /*-----FOOTER-----*/
-  
+/*-----FOOTER-----*/
 .subs-btn {
   font-size: 1rem;
 }
-  
 .subs-btn-2 {
   font-size: 1.2rem;
   overflow: hidden;
   text-overflow: ellipsis;
   height: 30px;
 }
-  
 .login-nav,
 .offer-nav {
   display: none;
 }
-  
 .phone-display {
   display: none;
 }
-  
- @media (max-width: 768px) {
+@media (max-width: 768px) {
   .fixed-sm-top {
     position: fixed;
     top: 0;
     z-index: 999;
   }
 }
-  
- /*----------Media query min-width = 768px--------*/
-  
+/*----Media query min-width = 768px-----*/
 @media (min-width: 768px) {
   .login-nav,
   .offer-nav {
@@ -247,61 +207,48 @@
     display: none;
     visibility: hidden;
   }
-
   .first-sponsor,
   .second-sponsor {
     display: none;
   }
-  
   .medium-none {
     display: none;
   }
-  
   .medium-show {
     display: initial;
   }
-  
   .img-sub-1 {
     left: 40px;
     top: 0;
     margin-left: -25px;
   }
-  
   .img-sub-2 {
     left: 20px;
     top: 8px;
   }
-  
   .imgs-sec {
     height: 280px;
   }
 }
-  
 /*------Media Query min-widh 992px--------*/
-  
 @media (min-width: 992px) {
   .big-show {
     display: inherit;
   }
-
   .big-none {
     display: none;
   }
-
   .header-logo {
     width: 396px;
     height: 60px;
   }
-  
   .big-img-magazine {
     height: 250px;
   }
-  
   .btn-down {
     display: flex;
     flex-direction: column;
   }
-  
   .imgs-sec {
     height: 300px;
   }
