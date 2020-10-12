@@ -11,1284 +11,1171 @@
     <script src="https://kit.fontawesome.com/fdccd4f74a.js" crossorigin="anonymous"></script>
     <title>Newsweek</title>
   </head>
-  <body>
-    <header class="container-fluid"> 
-        <div class="row border align-items-center nav-bar-height d-none d-lg-block">
-          <div class="d-flex">
-            <div class="col-lg-3 mt-4">
-              <a class="pl-lg-3" href=""><i class="fas fa-bolt"></i><span> 29<sup>o</sup></span><span> Dhaka, BD</span></a>
-              <h5>Mon, Oct 5, 2020</h5>                        
-            </div>
-            <div class="col-lg-6 text-lg-center">
-              <img src="images/newsweek-logo.jpg" alt="images" class="img-fluid">
-            </div>
-            <div class="col-lg-3">
-            <div class="d-flex justify-content-end mt-4">
-              <button type="button" class="btn btn-link-login">Login</button>
-              <button type="button" class="btn btn-warning brd-radius border bttn-prop-subscr mt-3">SUBSCRIPTION OFFER 
-                <i class="fa fa-chevron-right" aria-hidden="true"></i></button>   
-            </div>
-            </div>
+  <body class="max-w-total mx-auto">
+  
+    <header>
+  
+      <nav class="fixed-sm-top navbar bg-red-news d-flex w-100">
+        <div class="text-white smaller-none big-show flex-column ">
+          <div class="text-white secondary-font">
+            <i class="fas fa-cloud-sun"></i>
+            <span>0°, Bespin City, BP ></span>
           </div>
+         <p class="text-white mt-3">Mon, Oct 05, 2020</p>
         </div>
+        <img class="header-logo w-lg-100" src="images/Newsweek.png" alt="logo-new-week">
+        <div class="d-flex align-items-center">
+          <a href="#"><i class="user-nav fas fa-user"></i></a>
+          <span class="text-white font-weight-bolder login-nav">LOGIN</span>
+          <button type="button" class="btn-warning text-black pl-2 pr-2 pt-1 pb-1">SUBSCRIBE ></button>
+          <a class="big-none" href="#"><i class="fas fa-bars"></i></a>
+        </div>
+      </nav>
+  
+      
+      <nav class="smaller-none big-show navbar navbar-expand border-bottom pt-3 pb-3 nav-top-2 position-relative">
+        <ul class="navbar-nav">
+        <li class="nav-item ml-2 pr-2 mr-2 border-right"><a class=" text-decoration-none text-black" href="#">U.S </a></li>
+        <li class="nav-item mr-2 pr-2 mr-2 border-right"><a class=" text-decoration-none text-black" href="#">Business</a></li>
+        <li class="nav-item mr-2 pr-2 mr-2 border-right"><a class=" text-decoration-none text-black" href="#">World</a></li>
+        <li class="nav-item mr-2 pr-2 mr-2 border-right"><a class="text-decoration-none text-black" href="#">Tech & Science</a></li>
+        <li class="nav-item mr-2 pr-2 mr-2 border-right"><a class="text-decoration-none text-black" href="#">Culture</a></li>
+        <li class="nav-item mr-2 pr-2 mr-2 border-right"><a class="text-decoration-none text-black" href="#">Newsgeek</a></li>
+        <li class="nav-item mr-2 pr-2 mr-2 border-right"><a class="text-decoration-none text-black" href="#">Sports</a></li>
+        <li class="nav-item mr-2 pr-2 mr-2 border-right"><a class="text-decoration-none text-black" href="#">Health</a></li>
+        <li class="nav-item mr-2 pr-2 mr-2 border-right"><a class="text-decoration-none text-black" href="#">The Debate</a></li>
+        <li class="nav-item mr-2 pr-2 mr-2 border-right"><a class="text-decoration-none text-black" href="#">Vantage</a></li>
+        <li class="nav-item mr-1 pr-1 mr-1"><a class="text-decoration-none text-black" href="#">Weather</a></li>
+        <li class="nav-item mr-2 pr-2 mr-2"><a class="text-decoration-none text-secondary" href="#">Search</a></li>
+        <li class="nav-item"><i class="fas fa-search"></i></li>
+      </ul>
+      <div class="rectangle bg-red-news position-absolute">
+  
+      </div>
+      <div class="triangle  position-absolute">
+  
+      </div>
+    </nav>
+      <nav class="smaller-none big-show navbar navbar-expand border-bottom pt-2 pb-2 nav-top-2">
+        <ul class="navbar-nav">
+          <li><a class="pl-1 pr-1 text-decoration-none text-black" href="#">TRENDING</a></li>
+          <li><a class="pl-3 pr-3 text-decoration-none text-black text-secondary" href="#"> DONALD TRUMP</a></li>
+          <li><a class="pl-3 pr-3 text-decoration-none text-black text-secondary" href="#">JOE BIDEN</a></li>
+          <li><a class="pl-3 pr-3 text-decoration-none text-black text-secondary" href="#">STIMULUS PACKAGE</a></li>
+          <li><a class="pl-3 pr-3 text-decoration-none text-black text-secondary" href="#">CORONA VIRUS</a></li>
+          <li><a class="pl-3 pr-3 text-decoration-none text-black text-secondary" href="#">2020 ELECTION</a></li>
+        </ul>
+      </nav>
     </header>
-         <!--Navbar for Tab and Mobile view-->
-         <div class="row border align-items-center nav-bar-height navbar-h-tab-mob d-flex justify-content-between d-lg-none">
-          <div class="col-md-8 col-sm-7">
-              <img src="images/newsweek-logo.jpg" alt="images" class="navbar-logo">
-          </div>
-          <div class="col-md-4 col-sm-5 ">              
-                  <div class="d-flex justify-content-end">
-                    <div class="p-3 h4 text-muted icon-opacity d-none d-sm-block d-md-none">
-                      <i class="fa fa-user" aria-hidden="true"></i>
-                    </div>
-                    <button type="button" class="btn btn-link d-none d-md-block"> Login</button>
-                    <button type="button" class="btn btn-warning btn-p-h-w text-uppercase">subscribe <i class="fa fa-chevron-right" aria-hidden="true"></i></button>                     
-                    </button>
-                    <div class="p-3 h4 text-muted icon-opacity"><i class="fa fa-bars" aria-hidden="true"></i></div>  
-                  </div>                  
-          </div>
-        </div>
-
-        <!--Navbar article categories--> 
-      <div class="container-fluid">
-          <div class="row d-none d-lg-block border-bottom">
-              <div class="d-flex">
-              <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="cult-trav font-weight-bold"> U.S. </a></div>
-              <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="cult-trav font-weight-bold"> World</a></div>
-              <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="cult-trav font-weight-bold">Business</a></div>
-              <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="cult-trav font-weight-bold">Tech & Science</a></div>
-              <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="cult-trav font-weight-bold">Culture</a></div>
-              <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="cult-trav font-weight-bold">Newsgeek</a></div>
-              <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="cult-trav font-weight-bold">Sports</a></div>
-              <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="cult-trav font-weight-bold">Health</a></div>
-              <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="cult-trav font-weight-bold">The Debate</a></div>
-              <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="cult-trav font-weight-bold">Vantage</a></div>
-              <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="cult-trav font-weight-bold">Weather</a></div>
-              <div class="col-lg-auto pl-2 pr-2"><a href="#" class="cult-trav font-weight-light">Search</a>
-              <i class="fa fa-search" aria-hidden="true"></i></div>
-              </div>
-          </div>
-        
-          <div class="row d-none d-lg-block border-bottom">
-            <div class="col-10">
-              <ul class="nav">
-                <li class="nav-item">
-                  <a class="nav-link active font-weight-bolder text-dark" href="#">Trending</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bolder text-muted" href="#">Donald Trump</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bolder text-muted" href="#">Joe Biden</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bolder text-muted" href="#">Stimulus and Package</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bolder text-muted" href="#">Coronavirus</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bolder text-muted" href="#">2020 Election</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-2"></div>
-          </div>
-      </div>   
   
-
-    
-    <div class="container-fluid mt-3 py-3">
-        <div class="row">
-
-                <!--left-side container-->
-
-                <div class="col-lg-3">
-                    <h3 class="feature text-muted font-weight-bold">FEATURED STORIES</h3>
-                    <div class="card br-none">
-                        <div class="img img-prop">
-                            <button type="button" class="btn btn-link bck-cl ">Politics</button>
-                        </div>
-                        <div class="card-body crd-bd-pad-sm">
-                          <h5 class="card-title font-weight-bold text-dark ">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-                        </div>
-                    </div>
-
-                    <div class="card br-none">
-                        <div class="img img-prop">
-                            <button type="button" class="btn btn-link bck-cl ">Politics</button>
-                        </div>
-                        <div class="card-body crd-bd-pad-sm">
-                          <h5 class="card-title font-weight-bold text-dark">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-                        </div>
-                    </div>
-                    <div class="card br-none">
-                        <div class="img img-prop">
-                            <button type="button" class="btn btn-link bck-cl ">Politics</button>
-                        </div>
-                        <div class="card-body crd-bd-pad-sm">
-                          <h5 class="card-title font-weight-bold text-dark">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-                        </div>
-                    </div>
-                    <div class="card br-none">
-                        <div class="img img-prop">
-                            <button type="button" class="btn btn-link bck-cl ">Politics</button>
-                        </div>
-                        <div class="card-body crd-bd-pad-sm">
-                          <h5 class="card-title font-weight-bold text-dark">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-                        </div>
-                    </div>
-                    <div class="card br-none">
-                        <div class="img img-prop">
-                            <button type="button" class="btn btn-link bck-cl ">Politics</button>
-                        </div>
-                        <div class="card-body crd-bd-pad-sm">
-                          <h5 class="card-title font-weight-bold text-dark">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-                        </div>
-                    </div>
-                    <div class="card br-none">
-                        <div class="img img-prop">
-                            <button type="button" class="btn btn-link bck-cl ">Politics</button>
-                        </div>
-                        <div class="card-body crd-bd-pad-sm">
-                          <h5 class="card-title font-weight-bold text-dark">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-                        </div>
-                    </div>
-                    <div class="card br-none">
-                        <div class="img img-prop">
-                            <button type="button" class="btn btn-link bck-cl ">Politics</button>
-                        </div>
-                        <div class="card-body crd-bd-pad-sm">
-                          <h5 class="card-title font-weight-bold text-dark">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-                        </div>
-                    </div>
-                    <div class="card br-none">
-                        <div class="img img-prop">
-                            <button type="button" class="btn btn-link bck-cl ">Politics</button>
-                        </div>
-                        <div class="card-body crd-bd-pad-sm">
-                          <h5 class="card-title font-weight-bold text-dark">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-                        </div>
-                    </div>
-                    <div class="card br-none">
-                        <div class="img img-prop">
-                            <button type="button" class="btn btn-link bck-cl ">Politics</button>
-                        </div>
-                        <div class="card-body crd-bd-pad-sm">
-                          <h5 class="card-title font-weight-bold text-dark">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-                        </div>
-                    </div>
-                    <div class="card br-none">
-                        <div class="img img-prop">
-                            <button type="button" class="btn btn-link bck-cl ">Politics</button>
-                        </div>
-                        <div class="card-body crd-bd-pad-sm">
-                          <h5 class="card-title font-weight-bold text-dark">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-                        </div>
-                    </div>
-                    <div class="card br-none">
-                        <div class="img img-prop">
-                            <button type="button" class="btn btn-link bck-cl ">  Politics</button>
-                        </div>
-                        <div class="card-body crd-bd-pad-sm">
-                          <h5 class="card-title font-weight-bold text-dark">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Centered container-->
-
-                <div class="col-lg-6">
-                    <h3 class="top-story text-muted font-weight-bold">TOP STORY</h3>
-                    <div class="card br-none">
-                        <div class="img-1 img-prop">
-                            <button type="button" class="btn btn-link bck-cl ">U.S.</button>
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title font-weight-bold text-dark ">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-                        </div>
-                    </div>
-
-                    <!--MyTurn-->
-
-                    <h3 class="my-turn text-muted font-weight-bold ">MY TURN</h3>
-                    <div class="row">                  
-                        <div class="col-lg-4">
-                            <div class="card br-none">
-                                <img src="images/my-turn-img-1.jpg" alt="My turn image" class="card-img-top img-fluid-1">
-                                <div class="card-block">
-                                    <p class=" text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="card br-none">
-                                <img src="images/my-turn-img-2.jpg" alt="My turn image" class="card-img-top img-fluid-1">
-                                <div class="card-block">
-                                    <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="card br-none">
-                                <img src="images/my-turn-img-3.jpg" alt="My turn image" class="card-img-top img-fluid-1">
-                                <div class="card-block">
-                                    <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Culture and Travel-->
-
-                    <h3 class="feature text-muted font-weight-bold" >CULTURE & TRAVEL</h3>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="card br-none">
-                                <div class="img-cult-trvl-1 img-prop img-fluid-1">
-                                    <button type="button" class="btn btn-link bck-cl  "> <a href="" class="active cult-trav ">MUSIC</a> </button>
-                                </div>
-                                <div class="card-block">
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="card br-none">
-                                <div class="img-cult-trvl-2 img-prop img-fluid-1">
-                                    <button type="button" class="btn btn-link bck-cl "><a href="" class="active cult-trav">WES ANDERSON</a> </button>
-                                </div>
-                                <div class="card-block">
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="card br-none">
-                                <div class="img-cult-trvl-3 img-prop img-fluid-1">
-                                    <button type="button" class="btn btn-link bck-cl "><a href="" class="active cult-trav">EMMYS</a> </button>
-                                </div>
-                                <div class="card-block">
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                                </div>
-                            </div>
-                        </div>
-    
-                    </div>
-
-                    <!--More Stories-->
-
-                    <h3 class="border-bottom pb-2 feature text-muted font-weight-bold" >MORE STORIES</h3>
-                    <div class="row">
-                        <div class="card br-none pt-3 pb-3 border-bottom">
-                            <div class="d-flex">
-                                <div class="col-lg-2">                      
-                                    <img src="images/more-stories-1.jpg" alt="Image" class="more-stories-img">
-                                </div>
-                                <div class="col-lg-10">
-                                    <h5 class="title font-weight-bold text-dark">Who Won the Vice Presidential Debate Between Pence and Harris?</h5>
-                                    <p class="card-text">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ipsam vel amet modi rerum aperiam eos.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card br-none pt-3 pb-3 border-bottom">
-                            <div class="d-flex">
-                                <div class="col-lg-2">                      
-                                    <img src="images/kirk-herbstreit.webp" alt="Image" class="more-stories-img">
-                                </div>
-                                <div class="col-lg-10">
-                                    <h5 class="title font-weight-bold text-dark">Who Won the Vice Presidential Debate Between Pence and Harris?</h5>
-                                    <p class="card-text">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ipsam vel amet modi rerum aperiam eos.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card br-none pt-3 pb-3 border-bottom">
-                            <div class="d-flex">
-                                <div class="col-lg-2">                      
-                                    <img src="images/levar-burton.webp" alt="Image" class="more-stories-img">
-                                </div>
-                                <div class="col-lg-10">
-                                    <h5 class="title font-weight-bold text-dark">Who Won the Vice Presidential Debate Between Pence and Harris?</h5>
-                                    <p class="card-text">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ipsam vel amet modi rerum aperiam eos.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card br-none pt-3 pb-3 border-bottom">
-                            <div class="d-flex">
-                                <div class="col-lg-2">                      
-                                    <img src="images/lipschutz-living-room-hotel-chelsea.webp" alt="Image" class="more-stories-img">
-                                </div>
-                                <div class="col-lg-10">
-                                    <h5 class="title font-weight-bold text-dark">Who Won the Vice Presidential Debate Between Pence and Harris?</h5>
-                                    <p class="card-text">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ipsam vel amet modi rerum aperiam eos.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card br-none pt-3 pb-3 border-bottom">
-                            <div class="d-flex">
-                                <div class="col-lg-2">                      
-                                    <img src="images/pangolin-hanging-tree.webp" alt="Image" class="more-stories-img">
-                                </div>
-                                <div class="col-lg-10">
-                                    <h5 class="title font-weight-bold text-dark">Who Won the Vice Presidential Debate Between Pence and Harris?</h5>
-                                    <p class="card-text">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ipsam vel amet modi rerum aperiam eos.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card br-none pt-3 pb-3 border-bottom">
-                            <div class="d-flex">
-                                <div class="col-lg-2">                      
-                                    <img src="images/per-president-01.webp" alt="Image" class="more-stories-img">
-                                </div>
-                                <div class="col-lg-10">
-                                    <h5 class="title font-weight-bold text-dark">Who Won the Vice Presidential Debate Between Pence and Harris?</h5>
-                                    <p class="card-text">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ipsam vel amet modi rerum aperiam eos.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card br-none pt-3 pb-3 border-bottom">
-                            <div class="d-flex">
-                                <div class="col-lg-2">                      
-                                    <img src="images/pete-buttigieg.webp" alt="Image" class="more-stories-img">
-                                </div>
-                                <div class="col-lg-10">
-                                    <h5 class="title font-weight-bold text-dark">Who Won the Vice Presidential Debate Between Pence and Harris?</h5>
-                                    <p class="card-text">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ipsam vel amet modi rerum aperiam eos.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card br-none pt-3 pb-3 border-bottom">
-                            <div class="d-flex">
-                                <div class="col-lg-2">                      
-                                    <img src="images/lonely-spaces-milan.webp" alt="Image" class="more-stories-img">
-                                </div>
-                                <div class="col-lg-10">
-                                    <h5 class="title font-weight-bold text-dark">Who Won the Vice Presidential Debate Between Pence and Harris?</h5>
-                                    <p class="card-text">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ipsam vel amet modi rerum aperiam eos.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card br-none pt-3 pb-3 border-bottom">
-                            <div class="d-flex">
-                                <div class="col-lg-2">                      
-                                    <img src="images/nancy-pelosi.webp" alt="Image" class="more-stories-img">
-                                </div>
-                                <div class="col-lg-10">
-                                    <h5 class="title font-weight-bold text-dark">Who Won the Vice Presidential Debate Between Pence and Harris?</h5>
-                                    <p class="card-text">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ipsam vel amet modi rerum aperiam eos.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card br-none pt-3 pb-3 border-bottom">
-                            <div class="d-flex">
-                                <div class="col-lg-2">                      
-                                    <img src="images/shutterstock-680368252.jpg" alt="Image" class="more-stories-img">
-                                </div>
-                                <div class="col-lg-10">
-                                    <h5 class="title font-weight-bold text-dark">Who Won the Vice Presidential Debate Between Pence and Harris?</h5>
-                                    <p class="card-text">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ipsam vel amet modi rerum aperiam eos.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card br-none pt-3 pb-3 border-bottom">
-                            <div class="d-flex">
-                                <div class="col-lg-2">                      
-                                    <img src="images/tokyo-my-city-chizu-nakamoto.jpg" alt="Image" class="more-stories-img">
-                                </div>
-                                <div class="col-lg-10">
-                                    <h5 class="title font-weight-bold text-dark">Who Won the Vice Presidential Debate Between Pence and Harris?</h5>
-                                    <p class="card-text">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ipsam vel amet modi rerum aperiam eos.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card br-none pt-3 pb-3 border-bottom">
-                            <div class="d-flex">
-                                <div class="col-lg-2">                      
-                                    <img src="images/rikers-island.webp" alt="Image" class="more-stories-img">
-                                </div>
-                                <div class="col-lg-10">
-                                    <h5 class="title font-weight-bold text-dark ">Who Won the Vice Presidential Debate Between Pence and Harris?</h5>
-                                    <p class="card-text">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ipsam vel amet modi rerum aperiam eos.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-    
-                    </div>
-    
-    
-    
-                </div>
-
-                <!--Right-side container-->
-                <div class="col-lg-3">
-
-                    <!--THE DEBATE-->
-
-                    <h3 class="border-btm top-story text-muted font-weight-bold pb-2">THE DEBATE</h3>
-                    <div class="card br-none"> 
-                        <div class="d-flex">
-                                <div class="col-lg-3">
-                                    <img src="images/bonnie-kristian.webp" alt="bonnie-kristian " >
-                                </div>
-                                <div class="col-lg-8">
-                                    <a href="#" class="font-weight-bold text-dark">
-                                        The Time Is Now to Recommit to a National Assault Weapon Ban</a>
-                                    <p><a href="#" class="text-muted debater">BY ERIC SWALWELL</a></p> 
-                                </div>
-                        </div>                 
-                    </div>
-                    <div class="pt-3 vs-circle">
-                        <div class="br-style"></div>
-                        <h4 class="rnd-circle">vs</h4>
-                    </div>
-    
-                    <div class="card br-none mt-4 border-btm"> 
-                        <div class="d-flex">
-                            <div class="col-lg-8">
-                                    <a href="#" class="font-weight-bold text-dark">
-                                        The Time Is Now to Recommit to a National Assault Weapon Ban</a>
-                                    <p><a href="#" class="text-muted debater">BY ERIC SWALWELL</a></p> 
-                            </div>
-                            <div class="col-lg-3">
-                                    <img src="images/bonnie-kristian.webp" alt="bonnie-kristian " >
-                            </div>
-                        </div>                 
-                    </div>
-
-                    <!--OPINION-->
-
-                   
-                    <div class="card br-none border-bottom pt-3"> 
-                        <h3 class=" top-story text-muted font-weight-bold pl-3 mt-3" >OPINION</h3>
-                        <div class="d-flex opinions mt-1 pt-1">
-                            
-                                <div class="col-lg-3 pt-1">
-                                    <img src="https://d.newsweek.com/en/full/1611448/ramos-horta.webp?w=63&h=63&f=31ec1dcaec3ac3c66d947fc1a1a69b4c" alt="bonnie-kristian" >
-                                </div>
-                                <div class="col-lg-9 ">
-                                    <a href="#" class="font-weight-bold text-dark pl-">
-                                        I'm a Nobel Peace Prize Laureate. I've Seldom Seen a Less Deserving Nominee</a>
-                                    <p class="text-muted debater">BY JOSÉ RAMOS-HORTA</p> 
-                                </div>
-                        </div>                 
-                    </div>
-                    <div class="card br-none border-bottom pt-3"> 
-                        <div class="d-flex">
-                                <div class="col-lg-3">
-                                    <img src="https://d.newsweek.com/en/full/1586659/abdul-el-sayed.webp?w=63&h=63&f=f5f5d8ced5be8c40f2537f4b1f292a6c" alt="bonnie-kristian" >
-                                </div>
-                                <div class="col-lg-9">
-                                    <a href="#" class="font-weight-bold text-dark">
-                                        Trump Loves Government Health Care for Him, Just Not for Us</a>
-                                    <p class="text-muted debater">BY ABDUL EL-SAYED</p> 
-                                </div>
-                        </div>                 
-                    </div>
-                    <div class="card br-none border-bottom pt-3"> 
-                        <div class="d-flex">
-                                <div class="col-lg-3">
-                                    <img src="https://d.newsweek.com/en/full/1646842/stephen-bryen.webp?w=63&h=63&f=28b80bccbc5b6743131be2ba96105b38" alt="bonnie-kristian" >
-                                </div>
-                                <div class="col-lg-9">
-                                    <a href="#" class="font-weight-bold text-dark">
-                                        Lease F-35s to Taiwan to Counter China's Threats</a>
-                                    <p class="text-muted debater">BY STEPHEN BRYEN</p> 
-                                </div>
-                        </div>                 
-                    </div>
-                    <div class="card br-none border-bottom pt-3"> 
-                        <div class="d-flex">
-                                <div class="col-lg-3">
-                                    <img src="https://d.newsweek.com/en/full/1606449/sarah-stern.webp?w=63&h=63&f=8695cd064addf95ee234db80a909259a" alt="bonnie-kristian" >
-                                </div>
-                                <div class="col-lg-9">
-                                    <a href="#" class="font-weight-bold text-dark">        
-                                        Macron Shows What Not 
-                                        to Do in Lebanon</a>
-                                    <p class="text-muted debater">BY SARAH STERN</p> 
-                                </div>
-                        </div>                 
-                    </div>
-                    <div class="card br-none border-bottom pt-3"> 
-                        <div class="d-flex">
-                                <div class="col-lg-3">
-                                    <img src="https://d.newsweek.com/en/full/1604725/tom-rogers-timothy-e-wirth.webp?w=63&h=63&f=c9021798f8a0bdb4f9c6625cd060f5ab" alt="bonnie-kristian" >
-                                </div>
-                                <div class="col-lg-9">
-                                    <a href="#" class="font-weight-bold text-dark">
-                                        Amid Trump's Post-Election Chaos, Hold Lawyers to Account on the Vote Count</a>
-                                    <p class="text-muted debater">BY TOM ROGERS AND TIMOTHY E. WIRTH</p> 
-                                </div>
-                        </div>                 
-                    </div>
-                    <div class="card br-none border-bottom pt-3"> 
-                        <div class="d-flex">
-                                <div class="col-lg-3">
-                                    <img src="https://d.newsweek.com/en/full/1636740/seth-j-frantzman.webp?w=63&h=63&f=b28018ca02b216a4f125ef4d5e90dd7f" alt="bonnie-kristian" >
-                                </div>
-                                <div class="col-lg-9">
-                                    <a href="#" class="font-weight-bold text-dark">
-                                        How Azerbaijan's Drones Show what the Future War Looks Like</a>
-                                    <p class="text-muted debater">BY SETH J. FRANTZMAN</p> 
-                                </div>
-                        </div>                 
-                    </div>
-                    <div class="card br-none border-bottom pt-3"> 
-                        <div class="d-flex">
-                                <div class="col-lg-3">
-                                    <img src="https://d.newsweek.com/en/full/1647238/sabrina-elba.webp?w=63&h=63&f=63b944dbb3a1097bd335a85aac336563" alt="bonnie-kristian" >
-                                </div>
-                                <div class="col-lg-9">
-                                    <a href="#" class="font-weight-bold text-dark">
-                                        COVID Is Reversing Decades of Progress for Rural Women and Girls</a>
-                                    <p class="text-muted debater">BY SABRINA DHOWRE ELBA</p> 
-                                </div>
-                        </div>                 
-                    </div>
-                    <div class="card br-none border-bottom pt-3"> 
-                        <div class="d-flex">
-                                <div class="col-lg-3">
-                                    <img src="https://d.newsweek.com/en/full/1647237/maya-foa.webp?w=63&h=63&f=76105823b78398637b0b0e9295a0477f" alt="bonnie-kristian">
-                                </div>
-                                <div class="col-lg-9">
-                                    <a href="#" class="font-weight-bold text-dark">
-                                        Saudi Bid to Rejoin Human Rights Council Can be Used as Leverage for Change</a>
-                                    <p class="text-muted debater">BY MAYA FOA</p> 
-                                </div>
-                        </div>                 
-                    </div>
-
-                    <div class="card mt-3">
-                        <div class="rt-sdbr-img-1 img-prop">
-                            <button type="button" class="btn btn-link bck-cl "><a href="" class="active">Politics</a> </button>
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title font-weight-bold">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-                        </div>
-                    </div>
-
-                    <!--Sign-up-form-->
-
-                    <div class="card-customize  ">
-                        <div class="card-body articles px-3 ">
-                        <div class="d-flex">
-                          <img src="images/news-single.jpg" alt="email" class="bttn-w-h">
-                          <h5 class="card-title articles-title">START YOUR DAY WITH OUR TOP 5 ARTICLES</h5>
-                        </div>
-                          <form>
-                            <div class="form-group">
-                              
-                              <input type="email" class="form-control"  aria-describedby="emailHelp" placeholder="Enter email">
-                              <small id="emailHelp" class="form-text text-muted"></small>
-                            </div>
-                            <button type="button" class="btn-danger btn-lg btn-block">Free Sign Up 
-                            <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
-                          </form>
-                        </div>
-                    <!--End-of-signup-form-->
-                    <div class="card mt-3">
-                        <div class="rt-sdbr-img-2 img-prop">
-                            <button type="button" class="btn btn-link bck-cl "><a href="" class="active">Politics</a> </button>
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-                        </div>
-                    </div>
-                    <div class="card mt-3">
-                        <div class="rt-sdbr-img-3 img-prop">
-                            <button type="button" class="btn btn-link bck-cl "><a href="" class="active">Politics</a> </button>
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-                        </div>
-                    </div>
-                    <div class="card mt-3">
-                        <div class="rt-sdbr-img-4 img-prop">
-                            <button type="button" class="btn btn-link bck-cl "><a href="" class="active">Politics</a> </button>
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-                        </div>
-                    </div>
-                    <div class="card mt-3">
-                        <div class="rt-sdbr-img-5 img-prop">
-                            <button type="button" class="btn btn-link bck-cl "><a href="" class="active">Politics</a> </button>
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-                        </div>
-                    </div>
-                    <div class="card mt-3">
-                        <div class="rt-sdbr-img-6 img-prop">
-                            <button type="button" class="btn btn-link bck-cl "><a href="" class="active">Politics</a> </button>
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title">China Censors Debate, Drops Signal During Pence Coronavirus Remarks</h5>
-                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-                        </div>
-                    </div>
-                </div>
+    <main class="pt-5">
   
-        </div>
-        </div>
-        <!--IN THE MAGAZINE CONTAINER-1-->
-    <div class="container-fluid">
-            <div class="d-flex justify-content-center border-bottom p-3"><img src="images/news-single.jpg" alt="news" class="pr-2">
-                <h3>IN THE MAGAZINE</h3>
-            </div>
-            <div class="row mt-3">
-                <div class="col-lg-3">
-                    <div class="card">                   
-                        <div class="inthe-mgz-img1 img-prop inthe-mgz-img1-prop">
-                            <button type="button" class="btn  br-radius text-danger font-weight-bolder">October 16 Issue</button>
-                        </div>
-                        <div class="card-body bg-light ">                    
-                            <h5 class="card-title features font-weight-bolder pt-3">
-                                SEE ALL FEATURES 
-                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mt-5">
-                    <div class="card">
-                        <div class="inthe-mgz-img2 inthe-mgz-img-prop w-70">
-                        </div>
-                        <div class="mt-3">
-                            <span class="mag-cat">Cover</span>
-                            <button type="button" class="btn btn-link"><a href="" class="text-danger font-weight-bold">U.S.</a> </button>
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title font-weight-bold">
-                             Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mt-5">
-                    <div class="card">
-                        <div class="inthe-mgz-img3 inthe-mgz-img-prop w-70">
-                        </div>
-                        <div class="mt-3">
-                            <span class="mag-cat">Features</span>
-                            <button type="button" class="btn btn-link"><a href="" class="text-danger font-weight-bold">Politics</a> </button>
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title font-weight-bold">
-                             Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mt-5">
-                    <div class="card">
-                        <div class="inthe-mgz-img4 inthe-mgz-img-prop w-70">
-                        </div>
-                        <div class="mt-3">
-                            <span class="mag-cat">Features</span>
-                            <button type="button" class="btn btn-link"><a href="" class="text-danger font-weight-bold">Opinion</a> </button>
-                        </div>
+            <div class="container-fluid">
+              
+              <div class="row">
+  
+                <!-- /*=============================================
+                  =            Section FEATURED STORIES          
+                  =============================================*/ -->
+                <section class="col-12 col-md-6 order-0 col-lg-3">
+  
+                  <section class="medium-none">
+                    <h1 class="story-h1">TOP STORY</h1>
+                    <article class="art-story">
+                      <div>
+                        <a href="#"><img class="w-100 pb-3" src="images/dolars-pic.png" alt="politics"></a>
+                      </div>
+                      <a href="#" class="a-story text-decoration-none font-weigth-bolder">Stimulus Checks in Both House, Pelosi-Mnuchin Plans—Who Would Qualify?</a>
+                      <p>A coronavirus relief package in the House and one that Speaker Pelosi and Treasury Secretary Mnuchin are ironing out are sure to have differences, but stimulus checks are in both.</p>
+                    </article>
+  
+                  </section>
+                  
+                  
+                  <h1 class="story-h1">FEATURED STORIES</h1>
+                  <article class="art-story">
+                    <a href="#"><img class="w-100" src="images/dolars-pic.png" alt="campign-pic"></a>
+                    <a href="#" class="a-story text-decoration-none font-weigth-bolder">'Woke' Christians Are Eroding Trump's Base, Dividing the Evangelical Church</a>
+                    <p>Southern Baptists are changing their names while Christian Colleges are creating scholarships in the name of George Floyd in a rush to embrace BLM: "This is the No. 1 divide in evangelicalism in 100 years.".</p>
+                  </article>
+  
+                  <article class="art-story">
+                    <a href="#"><img class="w-100" src="images/dolars-pic.png" alt="world"></a>
+                    <a href="#" class="a-story text-decoration-none font-weigth-bolder">'Woke' Christians Are Eroding Trump's Base, Dividing the Evangelical Church</a>
+                    <p>Southern Baptists are changing their names while Christian Colleges are creating scholarships in the name of George Floyd in a rush to embrace BLM: "This is the No. 1 divide in evangelicalism in 100 years.".</p>
+                  </article>
+  
+                  <article class="art-story">
+                    <a href="#"><img class="w-100" src="images/dolars-pic.png" alt="us"></a>
+                    <a href="#" class="a-story text-decoration-none font-weigth-bolder">'Woke' Christians Are Eroding Trump's Base, Dividing the Evangelical Church</a>
+                    <p>Southern Baptists are changing their names while Christian Colleges are creating scholarships in the name of George Floyd in a rush to embrace BLM: "This is the No. 1 divide in evangelicalism in 100 years.".</p>
+                  </article>
+  
+                  <article class="art-story">
+                    <a href="#"><img class="w-100" src="images/dolars-pic.png" alt="us"></a>
+                    <a href="#" class="a-story text-decoration-none font-weigth-bolder">'Woke' Christians Are Eroding Trump's Base, Dividing the Evangelical Church</a>
+                    <p>Southern Baptists are changing their names while Christian Colleges are creating scholarships in the name of George Floyd in a rush to embrace BLM: "This is the No. 1 divide in evangelicalism in 100 years.".</p>
+                  </article>
+  
+                  <article class="art-story">
+                    <a href="#"><img class="w-100" src="images/dolars-pic.png" alt="world"></a>
+                    <a href="#" class="a-story text-decoration-none font-weigth-bolder">'Woke' Christians Are Eroding Trump's Base, Dividing the Evangelical Church</a>
+                    <p>Southern Baptists are changing their names while Christian Colleges are creating scholarships in the name of George Floyd in a rush to embrace BLM: "This is the No. 1 divide in evangelicalism in 100 years.".</p>
+                  </article>
+                </section>
+              
+            
+  
+                <!-- /*=============================================
+                =            Section TOP STORY    DIV FOR MEDIUM SIZE        
+                =============================================*/ -->
+  
+  
+                <div class="smaller-none col-md-6 order-2 medium-show col-lg-5">
+                  <section>
+                    <h1 class="story-h1">TOP STORY</h1>
+                    <article class="art-story">
+                      <div>
+                        <a href="#"><img class="w-100 pb-3" src="images/dolars-pic.png" alt="dolars-pic"></a>
+                      </div>
+                      <a href="#" class="a-story text-decoration-none font-weigth-bolder">Stimulus Checks in Both House, Pelosi-Mnuchin Plans—Who Would Qualify?</a>
+                      <p>A coronavirus relief package in the House and one that Speaker Pelosi and Treasury Secretary Mnuchin are ironing out are sure to have differences, but stimulus checks are in both.</p>
+                    </article>
+                  </section>  
+  
+                    <!-- /*=============================================
+                  =            Section MY TURN          =
+                  =============================================*/ -->
+  
+                  <section class="smaller-none medium-show">
+                    
+                    <div class="container-fluid">
+                      <h1 class="story-h1">MY TURN</h1>
+                      <div class="row">
                         
-                        <div class="card-body">
-                          <h5 class="card-title font-weight-bold">
-                             Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</h5>
+                        <div class="col-md-4" >
+                          <a href="#"><img class="d-block w-100 mb-2" src="images/my-turn-img-1.png" alt="small picture"></a>
+                          <a href="#" class="font-p-my-turn">1We Live In A Two Storey Undergrouond Bunker'</a>
                         </div>
-                    </div>
-                </div>               
-            </div>
-    </div>
-         <!--IN THE MAGAZINE CONTAINER-2-->
-
-    <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3 mt-5">
-                    <div class="card">
-                        <div class="inthe-mgz-img5 inthe-mgz-img-prop w-70">
-                        </div>
-                        <div class="mt-3">
-                            <span class="mag-cat">Periscope</span>
-                            <button type="button" class="btn btn-link"><a href="" class="text-danger font-weight-bold">Culture</a> </button>
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title font-weight-bold">
-                             Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mt-5">
-                    <div class="card">
-                        <div class="inthe-mgz-img6 inthe-mgz-img-prop w-70">
-                        </div>
-                        <div class="mt-3">
-                            <span class="mag-cat">Downtime</span>
-                            <button type="button" class="btn btn-link"><a href="" class="text-danger font-weight-bold">Culture</a> </button>
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title font-weight-bold">
-                             Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mt-5">
-                    <div class="card">
-                        <div class="inthe-mgz-img7 inthe-mgz-img-prop w-70">
-                        </div>
-                        <div class="mt-3">
-                            <span class="mag-cat">Downtime</span>
-                            <button type="button" class="btn btn-link"><a href="" class="text-danger font-weight-bold">Culture</a> </button>
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title font-weight-bold">
-                            Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 mt-5">
-                    <div class="card">
-                        <div class="inthe-mgz-img8 inthe-mgz-img-prop w-70">
-                            <button type="button" class="btn   bg-danger mag-cat">IN FOCUS</button>
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title font-weight-bold">
-                             Dissent</h5>
-                        </div>
-                    </div>
-                </div>               
-            </div>
-    </div>
-
-
-        <!--Editors pick-->
-<div class="col-12 mt-4">
-          <div class="card border-0">
-              <div class="card-footer d-flex bg-white border-0 justify-content-center">
-                  <img src="images/n-icon.png" class="n-height" alt="">
-                  <h3 class="font-weight-bold mag ml-2">EDITOR'S PICK</h3>
-              </div>
-          </div>
-</div>
-<div class="row border-top py-4 row-cols-lg-4 row-cols-md-2 row-cols-1">
-      <div class="col">
-        <div class="card border-0">
-            <div class="img img-prop">
-                <button type="button" class="btn btn-link bck-cl ">HEALTH</button>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title font-weight-bold text-dark"> Coronavirus Traces Found on Bleached Surface After 8 Days</h5>
-              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dignissimos, eligendi inventore perspiciatis, bis velit reprehenderit </p>
-            </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card border-0">
-            <div class="img img-prop">
-                <button type="button" class="btn btn-link bck-cl ">HEALTH</button>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title font-weight-bold text-dark">Coronavirus Traces Found on Bleached Surface After 8 Days</h5>
-              <p class="card-text"> Nulla dignissimos, eligendi inventore perspiciatis, dolorem illum cupiditate nobis </p>
-            </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card border-0">
-            <div class="img img-prop">
-                <button type="button" class="btn btn-link bck-cl ">HEALTH</button>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title font-weight-bold text-dark">Coronavirus Traces Found on Bleached Surface After 8 Days</h5>
-              <p class="card-text"> dolorem illum cupiditate nobis velit reprehenderit nihil nam facilis consequuntur. Possimus neque sit iure cum in quae.</p>
-            </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card border-0">
-            <div class="img img-prop">
-                <button type="button" class="btn btn-link bck-cl ">HEALTH</button>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title font-weight-bold text-dark">Coronavirus Traces Found on Bleached Surface After 8 Days</h5>
-              <p class="card-text"> inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nih Possimus neque sit iure cum in quae.</p>
-            </div>
-        </div>
-      </div>
-
-
-
-      <div class="col">
-        <div class="card border-0">
-            <div class="img img-prop">
-                <button type="button" class="btn btn-link bck-cl ">HEALTH</button>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title font-weight-bold text-dark">Coronavirus Traces Found on Bleached Surface After 8 Days</h5>
-              <p class="card-text"> inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nih Possimus neque sit iure cum in quae.</p>
-            </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card border-0">
-            <div class="img img-prop">
-                <button type="button" class="btn btn-link bck-cl ">HEALTH</button>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title font-weight-bold text-dark">Coronavirus Traces Found on Bleached Surface After 8 Days</h5>
-              <p class="card-text"> inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nih Possimus neque sit iure cum in quae.</p>
-            </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card border-0">
-            <div class="img img-prop">
-                <button type="button" class="btn btn-link bck-cl ">HEALTH</button>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title font-weight-bold text-dark">Coronavirus Traces Found on Bleached Surface After 8 Days</h5>
-              <p class="card-text"> inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nih Possimus neque sit iure cum in quae.</p>
-            </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card border-0">
-            <div class="img img-prop">
-                <button type="button" class="btn btn-link bck-cl ">HEALTH</button>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title font-weight-bold text-dark">Coronavirus Traces Found on Bleached Surface After 8 Days</h5>
-              <p class="card-text"> inventore perspiciatis, dolorem illum cupiditate nobis velit reprehenderit nih Possimus neque sit iure cum in quae.</p>
-            </div>
-        </div>
-      </div>
-      
-</div>
-<div class="border-top py-3">
-    <h5 class="font-weight-bold text-danger">U.S.</h5>
-    <div class="row row-cols-md-3 row-cols-1">
-      <div class="col">
-        <div class="card border-0">
-            <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1649187/adam-schiff-constitution-bill-maher.webp?w=397&h=265&f=13cd0cd5b1b0dce997c8a3694a97c5e7" alt=""></a>
-            <div class="card-body pl-0">
-                <h5 class="card-subtitle font-weight-bold red-line"><a class="text-dark" href="">Adam Schiff: Abolishing Electoral College an 'Overdue Constitutional Change</a></h5>
-            </div>
-        </div>
-    </div>
-      <div class="col">
-        <div class="card border-0">
-            <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1649188/hurricane-delta-louisiana.webp?w=397&h=265&f=fe4f4f51d99fa25a36b143317981404e" alt=""></a>
-            <div class="card-body pl-0">
-                <h5 class="card-subtitle font-weight-bold red-line"><a class="text-dark" href="">1Hurricane Delta Update: Louisiana Battered With More Than 17 Inches of Rain</a></h5>
-            </div>
-        </div>
-    </div>
-      <div class="col">
-         <div class="card border-0 adam ">
-           <div class="d-flex border-bottom py-2 mr-1">
-           <a href="#"><img class="img6 " src="https://d.newsweek.com/en/full/1649187/adam-schiff-constitution-bill-maher.webp?w=397&h=265&f=13cd0cd5b1b0dce997c8a3694a97c5e7" alt="..."></a>
-            <div class="card-body ml-1 ">
-             <h3 class="card-title font-weight-bold red-text "><a href="" class="text-dark">Adam Schiff: Abolishing Electoral College an 'Overdue Constitutional Change</a></h3>
-           </div>
-         </div>
-       </div>
-         <div class="card border-0">
-           <div class="d-flex border-bottom py-2 mr-1">
-           <a href="#"><img class="img6" src="https://d.newsweek.com/en/full/1649188/hurricane-delta-louisiana.webp?w=95&h=95&f=74dac00bc1c8a042c36159487d0a394a" alt="..."></a>
-            <div class="card-body ml-1">
-             <h3 class="card-title font-weight-bold red-text"><a href="" class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur recusandae deserunt aliquid maxime i</a></h3>
-           </div>
-         </div>
-       </div>
-         <div class="card border-0">
-           <div class="d-flex py-2 mr-1">
-           <a href="#"><img class="img6" src="https://d.newsweek.com/en/full/1587278/former-new-jersey-gov-chris-christie.webp?w=95&h=95&f=be57b468a119683bbd9f8e3b49deb0b5" alt="..."></a>
-            <div class="card-body ml-1 ">
-             <h3 class="card-title font-weight-bold red-text"><a href="" class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis cupiditate corrupti labore aspernatur unde a iusto officia</a></h3>
-           </div>
-         </div>
-       </div>
-      </div>
-    </div>
-</div>
-
-<div class="border-top py-3">
-    <h5 class="font-weight-bold text-danger">U.S.</h5>
-    <div class="row row-cols-md-3 row-cols-1">
-      <div class="col">
-        <div class="card border-0">
-            <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1649187/adam-schiff-constitution-bill-maher.webp?w=397&h=265&f=13cd0cd5b1b0dce997c8a3694a97c5e7" alt=""></a>
-            <div class="card-body pl-0">
-                <h5 class="card-subtitle font-weight-bold red-line"><a class="text-dark" href="">Adam Schiff: Abolishing Electoral College an 'Overdue Constitutional Change</a></h5>
-            </div>
-        </div>
-    </div>
-      <div class="col">
-        <div class="card border-0">
-            <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1649188/hurricane-delta-louisiana.webp?w=397&h=265&f=fe4f4f51d99fa25a36b143317981404e" alt=""></a>
-            <div class="card-body pl-0">
-                <h5 class="card-subtitle font-weight-bold red-line"><a class="text-dark" href="">1Hurricane Delta Update: Louisiana Battered With More Than 17 Inches of Rain</a></h5>
-            </div>
-        </div>
-    </div>
-      <div class="col">
-         <div class="card border-0 adam ">
-           <div class="d-flex border-bottom py-2 mr-1">
-           <a href="#"><img class="img6 " src="https://d.newsweek.com/en/full/1649187/adam-schiff-constitution-bill-maher.webp?w=397&h=265&f=13cd0cd5b1b0dce997c8a3694a97c5e7" alt="..."></a>
-            <div class="card-body ml-1 ">
-             <h3 class="card-title font-weight-bold red-text "><a href="" class="text-dark">Adam Schiff: Abolishing Electoral College an 'Overdue Constitutional Change</a></h3>
-           </div>
-         </div>
-       </div>
-         <div class="card border-0">
-           <div class="d-flex border-bottom py-2 mr-1">
-           <a href="#"><img class="img6" src="https://d.newsweek.com/en/full/1649188/hurricane-delta-louisiana.webp?w=95&h=95&f=74dac00bc1c8a042c36159487d0a394a" alt="..."></a>
-            <div class="card-body ml-1">
-             <h3 class="card-title font-weight-bold red-text"><a href="" class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur recusandae deserunt aliquid maxime i</a></h3>
-           </div>
-         </div>
-       </div>
-         <div class="card border-0">
-           <div class="d-flex py-2 mr-1">
-           <a href="#"><img class="img6" src="https://d.newsweek.com/en/full/1587278/former-new-jersey-gov-chris-christie.webp?w=95&h=95&f=be57b468a119683bbd9f8e3b49deb0b5" alt="..."></a>
-            <div class="card-body ml-1 ">
-             <h3 class="card-title font-weight-bold red-text"><a href="" class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis cupiditate corrupti labore aspernatur unde a iusto officia</a></h3>
-           </div>
-         </div>
-       </div>
-      </div>
-    </div>
-</div>
-
-<div class="border-top py-3">
-    <h5 class="font-weight-bold text-danger">U.S.</h5>
-    <div class="row row-cols-md-3 row-cols-1">
-      <div class="col">
-        <div class="card border-0">
-            <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1649187/adam-schiff-constitution-bill-maher.webp?w=397&h=265&f=13cd0cd5b1b0dce997c8a3694a97c5e7" alt=""></a>
-            <div class="card-body pl-0">
-                <h5 class="card-subtitle font-weight-bold red-line"><a class="text-dark" href="">Adam Schiff: Abolishing Electoral College an 'Overdue Constitutional Change</a></h5>
-            </div>
-        </div>
-    </div>
-      <div class="col">
-        <div class="card border-0">
-            <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1649188/hurricane-delta-louisiana.webp?w=397&h=265&f=fe4f4f51d99fa25a36b143317981404e" alt=""></a>
-            <div class="card-body pl-0">
-                <h5 class="card-subtitle font-weight-bold red-line"><a class="text-dark" href="">1Hurricane Delta Update: Louisiana Battered With More Than 17 Inches of Rain</a></h5>
-            </div>
-        </div>
-    </div>
-      <div class="col">
-         <div class="card border-0 adam ">
-           <div class="d-flex border-bottom py-2 mr-1">
-           <a href="#"><img class="img6 " src="https://d.newsweek.com/en/full/1649187/adam-schiff-constitution-bill-maher.webp?w=397&h=265&f=13cd0cd5b1b0dce997c8a3694a97c5e7" alt="..."></a>
-            <div class="card-body ml-1 ">
-             <h3 class="card-title font-weight-bold red-text "><a href="" class="text-dark">Adam Schiff: Abolishing Electoral College an 'Overdue Constitutional Change</a></h3>
-           </div>
-         </div>
-       </div>
-         <div class="card border-0">
-           <div class="d-flex border-bottom py-2 mr-1">
-           <a href="#"><img class="img6" src="https://d.newsweek.com/en/full/1649188/hurricane-delta-louisiana.webp?w=95&h=95&f=74dac00bc1c8a042c36159487d0a394a" alt="..."></a>
-            <div class="card-body ml-1">
-             <h3 class="card-title font-weight-bold red-text"><a href="" class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur recusandae deserunt aliquid maxime i</a></h3>
-           </div>
-         </div>
-       </div>
-         <div class="card border-0">
-           <div class="d-flex py-2 mr-1">
-           <a href="#"><img class="img6" src="https://d.newsweek.com/en/full/1587278/former-new-jersey-gov-chris-christie.webp?w=95&h=95&f=be57b468a119683bbd9f8e3b49deb0b5" alt="..."></a>
-            <div class="card-body ml-1 ">
-             <h3 class="card-title font-weight-bold red-text"><a href="" class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis cupiditate corrupti labore aspernatur unde a iusto officia</a></h3>
-           </div>
-         </div>
-       </div>
-      </div>
-    </div>
-</div>
-
-         
-<div class="border-top py-3">
-    <h5 class="font-weight-bold text-danger">U.S.</h5>
-    <div class="row row-cols-md-3 row-cols-1">
-      <div class="col">
-        <div class="card border-0">
-            <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1649187/adam-schiff-constitution-bill-maher.webp?w=397&h=265&f=13cd0cd5b1b0dce997c8a3694a97c5e7" alt=""></a>
-            <div class="card-body pl-0">
-                <h5 class="card-subtitle font-weight-bold red-line"><a class="text-dark" href="">Adam Schiff: Abolishing Electoral College an 'Overdue Constitutional Change</a></h5>
-            </div>
-        </div>
-    </div>
-      <div class="col">
-        <div class="card border-0">
-            <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1649188/hurricane-delta-louisiana.webp?w=397&h=265&f=fe4f4f51d99fa25a36b143317981404e" alt=""></a>
-            <div class="card-body pl-0">
-                <h5 class="card-subtitle font-weight-bold red-line"><a class="text-dark" href="">1Hurricane Delta Update: Louisiana Battered With More Than 17 Inches of Rain</a></h5>
-            </div>
-        </div>
-    </div>
-      <div class="col">
-         <div class="card border-0 adam ">
-           <div class="d-flex border-bottom py-2 mr-1">
-           <a href="#"><img class="img6 " src="https://d.newsweek.com/en/full/1649187/adam-schiff-constitution-bill-maher.webp?w=397&h=265&f=13cd0cd5b1b0dce997c8a3694a97c5e7" alt="..."></a>
-            <div class="card-body ml-1 ">
-             <h3 class="card-title font-weight-bold red-text "><a href="" class="text-dark">Adam Schiff: Abolishing Electoral College an 'Overdue Constitutional Change</a></h3>
-           </div>
-         </div>
-       </div>
-         <div class="card border-0">
-           <div class="d-flex border-bottom py-2 mr-1">
-           <a href="#"><img class="img6" src="https://d.newsweek.com/en/full/1649188/hurricane-delta-louisiana.webp?w=95&h=95&f=74dac00bc1c8a042c36159487d0a394a" alt="..."></a>
-            <div class="card-body ml-1">
-             <h3 class="card-title font-weight-bold red-text"><a href="" class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur recusandae deserunt aliquid maxime i</a></h3>
-           </div>
-         </div>
-       </div>
-         <div class="card border-0">
-           <div class="d-flex py-2 mr-1">
-           <a href="#"><img class="img6" src="https://d.newsweek.com/en/full/1587278/former-new-jersey-gov-chris-christie.webp?w=95&h=95&f=be57b468a119683bbd9f8e3b49deb0b5" alt="..."></a>
-            <div class="card-body ml-1 ">
-             <h3 class="card-title font-weight-bold red-text"><a href="" class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis cupiditate corrupti labore aspernatur unde a iusto officia</a></h3>
-           </div>
-         </div>
-       </div>
-      </div>
-    </div>
-</div>
-
-      
-<div class="border-top py-3">
-    <h5 class="font-weight-bold text-danger">U.S.</h5>
-    <div class="row row-cols-md-3 row-cols-1">
-      <div class="col">
-        <div class="card border-0">
-            <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1649187/adam-schiff-constitution-bill-maher.webp?w=397&h=265&f=13cd0cd5b1b0dce997c8a3694a97c5e7" alt=""></a>
-            <div class="card-body pl-0">
-                <h5 class="card-subtitle font-weight-bold red-line"><a class="text-dark" href="">Adam Schiff: Abolishing Electoral College an 'Overdue Constitutional Change</a></h5>
-            </div>
-        </div>
-    </div>
-      <div class="col">
-        <div class="card border-0">
-            <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1649188/hurricane-delta-louisiana.webp?w=397&h=265&f=fe4f4f51d99fa25a36b143317981404e" alt=""></a>
-            <div class="card-body pl-0">
-                <h5 class="card-subtitle font-weight-bold red-line"><a class="text-dark" href="">1Hurricane Delta Update: Louisiana Battered With More Than 17 Inches of Rain</a></h5>
-            </div>
-        </div>
-    </div>
-      <div class="col">
-         <div class="card border-0 adam ">
-           <div class="d-flex border-bottom py-2 mr-1">
-           <a href="#"><img class="img6 " src="https://d.newsweek.com/en/full/1649187/adam-schiff-constitution-bill-maher.webp?w=397&h=265&f=13cd0cd5b1b0dce997c8a3694a97c5e7" alt="..."></a>
-            <div class="card-body ml-1 ">
-             <h3 class="card-title font-weight-bold red-text "><a href="" class="text-dark">Adam Schiff: Abolishing Electoral College an 'Overdue Constitutional Change</a></h3>
-           </div>
-         </div>
-       </div>
-         <div class="card border-0">
-           <div class="d-flex border-bottom py-2 mr-1">
-           <a href="#"><img class="img6" src="https://d.newsweek.com/en/full/1649188/hurricane-delta-louisiana.webp?w=95&h=95&f=74dac00bc1c8a042c36159487d0a394a" alt="..."></a>
-            <div class="card-body ml-1">
-             <h3 class="card-title font-weight-bold red-text"><a href="" class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur recusandae deserunt aliquid maxime i</a></h3>
-           </div>
-         </div>
-       </div>
-         <div class="card border-0">
-           <div class="d-flex py-2 mr-1">
-           <a href="#"><img class="img6" src="https://d.newsweek.com/en/full/1587278/former-new-jersey-gov-chris-christie.webp?w=95&h=95&f=be57b468a119683bbd9f8e3b49deb0b5" alt="..."></a>
-            <div class="card-body ml-1 ">
-             <h3 class="card-title font-weight-bold red-text"><a href="" class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis cupiditate corrupti labore aspernatur unde a iusto officia</a></h3>
-           </div>
-         </div>
-       </div>
-      </div>
-    </div>
-</div>
-
-      
-<div class="border-top py-3">
-    <h5 class="font-weight-bold text-danger">U.S.</h5>
-    <div class="row row-cols-md-3 row-cols-1">
-      <div class="col">
-        <div class="card border-0">
-            <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1649187/adam-schiff-constitution-bill-maher.webp?w=397&h=265&f=13cd0cd5b1b0dce997c8a3694a97c5e7" alt=""></a>
-            <div class="card-body pl-0">
-                <h5 class="card-subtitle font-weight-bold red-line"><a class="text-dark" href="">Adam Schiff: Abolishing Electoral College an 'Overdue Constitutional Change</a></h5>
-            </div>
-        </div>
-    </div>
-      <div class="col">
-        <div class="card border-0">
-            <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1649188/hurricane-delta-louisiana.webp?w=397&h=265&f=fe4f4f51d99fa25a36b143317981404e" alt=""></a>
-            <div class="card-body pl-0">
-                <h5 class="card-subtitle font-weight-bold red-line"><a class="text-dark" href="">1Hurricane Delta Update: Louisiana Battered With More Than 17 Inches of Rain</a></h5>
-            </div>
-        </div>
-    </div>
-      <div class="col">
-         <div class="card border-0 adam ">
-           <div class="d-flex border-bottom py-2 mr-1">
-           <a href="#"><img class="img6 " src="https://d.newsweek.com/en/full/1649187/adam-schiff-constitution-bill-maher.webp?w=397&h=265&f=13cd0cd5b1b0dce997c8a3694a97c5e7" alt="..."></a>
-            <div class="card-body ml-1 ">
-             <h3 class="card-title font-weight-bold red-text "><a href="" class="text-dark">Adam Schiff: Abolishing Electoral College an 'Overdue Constitutional Change</a></h3>
-           </div>
-         </div>
-       </div>
-         <div class="card border-0">
-           <div class="d-flex border-bottom py-2 mr-1">
-           <a href="#"><img class="img6" src="https://d.newsweek.com/en/full/1649188/hurricane-delta-louisiana.webp?w=95&h=95&f=74dac00bc1c8a042c36159487d0a394a" alt="..."></a>
-            <div class="card-body ml-1">
-             <h3 class="card-title font-weight-bold red-text"><a href="" class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur recusandae deserunt aliquid maxime i</a></h3>
-           </div>
-         </div>
-       </div>
-         <div class="card border-0">
-           <div class="d-flex py-2 mr-1">
-           <a href="#"><img class="img6" src="https://d.newsweek.com/en/full/1587278/former-new-jersey-gov-chris-christie.webp?w=95&h=95&f=be57b468a119683bbd9f8e3b49deb0b5" alt="..."></a>
-            <div class="card-body ml-1 ">
-             <h3 class="card-title font-weight-bold red-text"><a href="" class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis cupiditate corrupti labore aspernatur unde a iusto officia</a></h3>
-           </div>
-         </div>
-       </div>
-      </div>
-    </div>
-</div>
-
-
-<div class="row ">
-    <div class="col-12 col-lg-4"><h5 class="text-danger font-weight-bold subscribe-2">SUBSCRIBE</h5></div>
-    <div class="col-4 offset-4 d-none d-lg-block"><h5 class="text-danger font-weight-bold subscribe-2">NEWSLETTER</h5></div>
-    <div class="col-12 col-lg-4 col-md-4 sub sub-news pt-5 d-flex justify-content-center">
-         <img class=" position-relative img8" src="https://d.newsweek.com/en/full/1641530/cover-october-02-2020.jpg?w=170&q=95&f=7dedf2b19f9910e285fdbdff096ed6a3" alt="" >
-         <img class="card-img-top position-relative img7" src="https://d.newsweek.com/en/full/1643943/cover-october-09-16-2020.jpg?w=170&q=95&f=f8144d83a028a40fe7ea6a5ed615ded7" alt="">
-    </div>
-    <div class="col-12 col-lg-4 col-md-8 sub sub-news d-flex justify-content-center">
-        <div class="card border-0 align-self-center">
-                 <div class="card-body sub text-center text-md-left">
-                    <h3 class="card-title font-weight-bold">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
-                    <p class="card-text p-content">All Access + Weekly Delivery. Choose A Membership That's Perfect for You!</p>
-                    <button type="button" class="btn btn-danger btn-lg rounded-0 text-light font-weight-bold">SUBSCRIBE ></button>
-                </div>
-        </div>
-    </div>
-    <div class="col-lg-2 col-12 pr-0">
-         <div class="d-lg-none"><h5 class="text-danger font-weight-bold ">NEWSLETTER</h5></div>
-         <div class="img9"></div>
-    </div>
-    <div class="col-lg-2 col-12 pl-lg-0 pr-0 pr-lg-2 sub-news">
-        <div class="card">
-           <div class="card-body d-lg-flex flex-column justify-content-center text-center start-card">
-             <h3 class="card-title start-title">The Starting 5</h3>
-             <p class="card-text p-content">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
-             <a href="#" class="btn btn-danger btn-lg rounded-0 text-white">SIGN UP ></a>
-           </div>
-        </div>
-    </div>
-</div>
-    </div>
-
-<!--FOOTER-->
-
-<footer class="border-top mx-3">
-  <div class="d-md-flex align-items-md-end justify-content-md-between mx-4 pt-5  pb-1 border-bottom">
-    <div class="d-md-flex align-items-md-end">
-      <a href="#">
-        <img src="images/news-footer.jpg" alt="news-footer">
-      </a>
-      <p class="mb-0">&copy; 2020 NEWSWEEK</p>
-    </div>
-    <div class="align-self-md-end">
-      <a href="#" class="h2 px-1 text-decoration-none">
-        <i class="fab fa-facebook"></i>
-      </a>
-      <a href="#" class="h2 px-1 text-decoration-none">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="#" class="h2 px-1 text-decoration-none">
-        <i class="fab fa-instagram-square"></i>
-      </a>
-      <a href="#" class="h2 px-1 text-decoration-none">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </div>
-  </div>
-  <div class="mx-4">
-    <p class="my-2"><span class="font-weight-bolder">Editions:</span>
-      <a href="#" class="text-decoration-none  px-2 mx-1 display-block border-right text-dark">U.S. Edition</a>
-      <a href="#" class="text-decoration-none  px-2 mx-1 display-block border-right text-dark">Japan</a>
-      <a href="#" class="text-decoration-none  px-2 mx-1 display-block border-right text-dark">Pakistan</a>
-      <a href="#" class="text-decoration-none  px-2 mx-1 display-block border-right text-dark">Polska</a>
-      <a href="#" class="text-decoration-none  px-2 mx-1 display-block text-dark">Romania</a>
-    </p>
-
-    <p class="my-2 pl-0 ml-0">
-      <a href="#" class="text-decoration-none display-block border-right text-dark pr-3">About Us</a>
-      <a href="#" class="text-decoration-none  px-2 mx-1 display-block border-right text-dark">Japan</a>
-      <a href="#" class="text-decoration-none  px-2 mx-1 display-block border-right text-dark">Corrections</a>
-      <a href="#" class="text-decoration-none  px-2 mx-1 display-block border-right text-dark">Contact Us</a>
-      <a href="#" class="text-decoration-none  px-2 mx-1 display-block border-right text-dark">Editorial
-        Guidelines</a>
-      <a href="#" class="text-decoration-none  px-2 mx-1 display-block border-right text-dark">Advertise</a>
-      <a href="#" class="text-decoration-none  px-2 mx-1 display-block border-right text-dark">Copyright</a>
-      <a href="#" class="text-decoration-none  px-2 mx-1 display-block border-right text-dark">Terms & Conditions</a>
-      <a href="#" class="text-decoration-none  px-2 mx-1 display-block border-right text-dark">Privacy Policy</a>
-      <a href="#" class="text-decoration-none  px-2 mx-1 display-block border-right text-dark">Cookie Policy</a>
-      <a href="#" class="text-decoration-none  px-2 mx-1 display-block border-right text-dark">Terms of Sale</a>
-      <a href="#" class="text-decoration-none  px-2 mx-1 display-block border-right text-dark">Archive</a>
-      <a href="#" class="text-decoration-none  px-2 mx-1 display-block border-right text-dark">Announcements</a>
-      <a href="#" class="text-decoration-none  px-2 mx-1 display-block text-dark">Concent Preferences</a>
-    </p>
-  </div>
-</footer>
-      
- 
- 
-      
- 
-      
- 
-        
-   
-
   
+                        <div class="col-md-4">
+                          <a href="#"><img class="d-block w-100 mb-2" src="images/my-turn-pic-2.png" alt="small picture"></a>
+                          <a href="#" class="font-p-my-turn">'My Home Was Burned Down In The Oregon Fires''</a>
+                        </div>
+  
+                        <div class="col-md-4">
+                          <a href="#"><img class="d-block w-100 mb-2" src="images/my-turn-pic-3.png" alt="small picture"></a>
+                          <a href="#" class="font-p-my-turn">I Had a Double Mastectomy, Covid-19 Has Prevented My Reconstructive Surgery'</a>
+                        </div>
+                      </div>
+  
+                      <h1 class="story-h1">CULTURE & TRAVEL</h1>
+                      <div class="row">
+                        <div class="col-md-4">
+                          <a href="#"><img class="d-block w-100 mb-2" src="images/my-turn-pic-3.png" alt="small picture"></a>
+                          <a href="#" class="font-p-my-turn">100 Best Rock Albums of All Time, According to Critics'</a>
+                        </div>
+  
+                        <div class="col-md-4">
+                          <a href="#"><img class="d-block w-100 mb-2" src="images/my-turn-pic-5.png" alt="small picture"></a>
+                          <a href="#" class="font-p-my-turn">Plot an Escape Around the World With 'Accidentally Wes Anderson' </a>
+                        </div>
+  
+                        <div class="col-md-4">
+                          <a href="#"><img class="d-block w-100 mb-2" src="images/my-turn-pic-6.png" alt="small picture"></a>
+                          <a href="#" class="font-p-my-turn">50 Black Actors Who Made Entertainment History</a>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+  
+                  <!-- /*=============================================
+                          =            Section MORE STORIES           =
+                          =============================================*/ -->
+  
+                  <section class="smaller-none medium-show">
+                    <h1 class="story-h1">MORE STORIES</h1>
+                    <article class="border-top pt-3">
+                      <img class="float-left mr-3 mb-1" src="images/more-stories-3.png" alt="more-stories-pic">
+                      <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                      <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                    </article>
+  
+                    <article class="border-top pt-3">
+                      <img class="float-left mr-3 mb-1" src="images/more-stories-2.png" alt="more-stories-pic">
+                      <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                      <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                    </article>
+  
+                    <article class="border-top pt-3">
+                      <img class="float-left mr-3 mb-1" src="images/more-stories-3.png" alt="more-stories-pic">
+                      <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                      <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                    </article>
+  
+                    <article class="border-top pt-3">
+                      <img class="float-left mr-3 mb-1" src="images/more-stories-4.png" alt="more-stories-pic">
+                      <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                      <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                    </article>
+  
+                    <article class="border-top pt-3">
+                      <img class="float-left mr-3 mb-1" src="images/more-stories-5.png" alt="more-stories-pic">
+                      <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                      <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                    </article>
+  
+                    <article class="border-top pt-3">
+                      <img class="float-left mr-3 mb-1" src="images/more-stories-6.png" alt="more-stories-pic">
+                      <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                      <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                    </article>
+  
+                    <article class="border-top pt-3">
+                      <img class="float-left mr-3 mb-1" src="images/more-stories-7.png" alt="more-stories-pic">
+                      <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                      <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                    </article>
+  
+                    <article class="border-top pt-3">
+                      <img class="float-left mr-3 mb-1" src="images/more-stories-4.png" alt="more-stories-pic">
+                      <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                      <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                    </article>
+  
+                    <article class="border-top pt-3">
+                      <img class="float-left mr-3 mb-1" src="images/more-stories-8.png" alt="more-stories-pic">
+                      <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                      <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                    </article>
+  
+                    <article class="border-top pt-3">
+                      <img class="float-left mr-3 mb-1" src="images/more-stories-9.png" alt="more-stories-pic">
+                      <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                      <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                    </article>
+  
+                    <article class="border-top pt-3">
+                      <img class="float-left mr-3 mb-1" src="images/more-stories-11.png" alt="more-stories-pic">
+                      <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                      <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                    </article>
+  
+                    <article class="border-top pt-3">
+                      <img class="float-left mr-3 mb-1" src="images/more-stories-11.png" alt="more-stories-pic">
+                      <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                      <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                    </article>
+  
+                  </section>
+                </div>
+              
+  
+                <!-- /*=============================================
+                  =            Section THE DEBATE           =
+                  =============================================*/ -->
+                <div class="medium-show col-12 col-md-12 order-sm-3 order-md-5 mt-4 col-lg-4">
+                  <section>
+  
+                    <h1 class="story-h1">THE DEBATE</h1>
+                    <div class="media mt-2 mb-2 mr-2 pt-3 border-top-gross">
+                      <img class="mr-2" src="https://d.newsweek.com/en/full/1533434/swalwell2.webp?w=150&h=150&f=b4925d53fde4dc49edb774ea5fdbadbd" alt="profile-pic">
+                      <div class="media-body mt-1">
+                        <a class="black-font-opinion primary-font" href="#">The Case for Amy Coney Barrett</a>
+                        <p class="text-secondary font-weight-bolder primary-font">By Robert P. George</p>
+                      </div>
+                    </div>
+                    <div class="media border-top-double border-bottom-gross mt-4 ml-2  mr-2 pt-3">
+                      
+                      <div class="media-body mt-1">
+                        <a class="black-font-opinion primary-font" href="#">Replacing RBG with a Woman like Barrett Is Beyond Tokenism. It's an Affront</a>
+                        <p class="text-secondary font-weight-bolder primary-font">By Bridget Kelly</p>
+                      </div>
+                      <img class="ml-2" src="https://d.newsweek.com/en/full/1588887/jody-hice.webp?w=150&h=150&f=5b179511d6277e3b46146f008b158157" alt="profile-pic">
+                    </div>
+  
+                  </section>
+            
+  
+  
+                  <!-- /*=============================================
+                  =            Section OPINION           =
+                  =============================================*/ -->
+                
+                  <section class="pt-3">
+                    
+                    <h1 class="story-h1">OPINION</h1>
+  
+                    <div class="media border-bottom pb-2 mt-2">
+                      <img src="https://d.newsweek.com/en/full/1639714/john-yoo-james-phillips.webp?w=63&h=63&f=e48507cfb655e034ae24df57c52795aa" alt="pic">
+                      <div class="ml-3 media-body">
+                        <a class="black-font-opinion primary-font" href="#">Yearning for an Independent Federal Judiciary </a>
+                        <p class="text-secondary font-weight-bolder primary-font">BY SETH MASKET AND JENNIFER REICH</p>
+                      </div>
+                    </div>
+  
+                    <div class="media border-bottom pb-2 mt-2">
+                      <img src="https://d.newsweek.com/en/full/1639714/john-yoo-james-phillips.webp?w=63&h=63&f=e48507cfb655e034ae24df57c52795aa" alt="pic">
+                      <div class="ml-3 media-body">
+                        <a class="black-font-opinion primary-font" href="#">We Are Nurses, America's Most Trusted Profession. And We Support Biden </a>
+                        <p class="text-secondary font-weight-bolder primary-font">BY OVER 700 SIGNATORIES</p>
+                      </div>
+                    </div>
+  
+                    <div  class="media border-bottom pb-2 mt-2">
+                      <img  src="https://d.newsweek.com/en/full/1639714/john-yoo-james-phillips.webp?w=63&h=63&f=e48507cfb655e034ae24df57c52795aa" alt="pic">
+                      <div class="ml-3 media-body">
+                        <a class="black-font-opinion primary-font" href="#">The United Nations: Erdogan's Favorite Platform for Trolling the World</a>
+                        <p class="text-secondary font-weight-bolder primary-font">BY AYKAN ERDEMIR AND PHILIP KOWALSKI</p>
+                      </div>
+                    </div>
+  
+                    <div  class="media border-bottom pb-2 mt-2">
+                      <img src="https://d.newsweek.com/en/full/1639714/john-yoo-james-phillips.webp?w=63&h=63&f=e48507cfb655e034ae24df57c52795aa" alt="pic">
+                      <div class="ml-3 media-body">
+                        <a class="black-font-opinion primary-font" href="#">Here's How the Democrats Can Flip the Script on Trump's SCOTUS Nomination </a>
+                        <p class="text-secondary font-weight-bolder primary-font">BY JOSHUA SPIVAK</p>
+                      </div>
+                    </div>
+  
+                    <div  class="media border-bottom pb-2 mt-2">
+                      <img src="https://d.newsweek.com/en/full/1639714/john-yoo-james-phillips.webp?w=63&h=63&f=e48507cfb655e034ae24df57c52795aa" alt="pic">
+                      <div class="ml-3 media-body">
+                        <a class="black-font-opinion primary-font" href="#">A Letter From an Abortion Provider to My Colleagues Fighting COVID-19 </a>
+                        <p class="text-secondary font-weight-bolder primary-font">BY COLLEGE MCNICHOLAS</p>
+                      </div>
+                    </div>
+  
+                    <div  class="media border-bottom pb-2 mt-2">
+                      <img src="https://d.newsweek.com/en/full/1639714/john-yoo-james-phillips.webp?w=63&h=63&f=e48507cfb655e034ae24df57c52795aa" alt="pic">
+                      <div class="ml-3 media-body">
+                        <a class="black-font-opinion primary-font" href="#">Why Downplaying China's Election Interference Could Backfire </a>
+                        <p class="text-secondary font-weight-bolder primary-font">BY CRAIG SINGLETON</p>
+                      </div>
+                    </div>
+  
+                    <div  class="media border-bottom pb-2 mt-2">
+                      <img src="https://d.newsweek.com/en/full/1639714/john-yoo-james-phillips.webp?w=63&h=63&f=e48507cfb655e034ae24df57c52795aa" alt="pic">
+                      <div class="ml-3 media-body">
+                        <a class="black-font-opinion primary-font" href="#">Americans Deserve a Better Debate </a>
+                        <p class="text-secondary font-weight-bolder primary-font">BY NEWT GINGRICH</p>
+                      </div>
+                    </div>
+  
+                    <div  class="media border-bottom pb-2 mt-2">
+                      <img src="https://d.newsweek.com/en/full/1639714/john-yoo-james-phillips.webp?w=63&h=63&f=e48507cfb655e034ae24df57c52795aa" alt="pic">
+                      <div class="ml-3 media-body">
+                        <a class="black-font-opinion primary-font" href="#">The World's Attention Is Drifting Away From Belarus. It's Far Too Soon</a>
+                        <p class="text-secondary font-weight-bolder primary-font">BY JANEK LASOCKI</p>
+                      </div>
+                    </div>
+  
+                    <div class="smaller-none big-show bg-light mx-auto border col-lg-11 ">
+                      <form class="d-flex flex-column align-items-center p-4 text-center" action="/">
+                          <label for="sign-up" class="black-font-big "><img  src="images/in-the-magazine-small-logo.png" alt="news week small logo">START YOUR DAY WITH OUR TOP 5 ARTICLES</label>
+                        <input class="w-75 border-light" type="text" placeholder="Email adress" id="sign-up-2">
+                        <button class="bg-red-news text-white rounded-sm border-0 w-50 mt-2 text-form-size" type="submit">FREE SIGN UP ></button>
+                      </form>
+                    </div>
+                  </section>
+                  <article class="art-story">
+                    <a href="#"><img class="w-100" src="images/dolars-pic.png" alt="world"></a>
+                    <a href="#" class="a-story text-decoration-none font-weigth-bolder">'Woke' Christians Are Eroding Trump's Base, Dividing the Evangelical Church</a>
+                    <p>Southern Baptists are changing their names while Christian Colleges are creating scholarships in the name of George Floyd in a rush to embrace BLM: "This is the No. 1 divide in evangelicalism in 100 years.".</p>
+                  </article>
+                  <article class="art-story">
+                    <a href="#"><img class="w-100" src="images/dolars-pic.png" alt="world"></a>
+                    <a href="#" class="a-story text-decoration-none font-weigth-bolder">'Woke' Christians Are Eroding Trump's Base, Dividing the Evangelical Church</a>
+                    <p>Southern Baptists are changing their names while Christian Colleges are creating scholarships in the name of George Floyd in a rush to embrace BLM: "This is the No. 1 divide in evangelicalism in 100 years.".</p>
+                  </article>
+                  <article class="art-story">
+                    <a href="#"><img class="w-100" src="images/dolars-pic.png" alt="world"></a>
+                    <a href="#" class="a-story text-decoration-none font-weigth-bolder">'Woke' Christians Are Eroding Trump's Base, Dividing the Evangelical Church</a>
+                    <p>Southern Baptists are changing their names while Christian Colleges are creating scholarships in the name of George Floyd in a rush to embrace BLM: "This is the No. 1 divide in evangelicalism in 100 years.".</p>
+                  </article>
+  
+                </div> 
+              </div>
+            </div>     
+  
+              <!-- /*=============================================
+              =            Section MORE STORIES  NO. 2         =
+              =============================================*/ -->
+  
+              <section class="medium-none col-12 col-md-6 order-sm-4 order-md-2 ">
+                <h1 class="story-h1">MORE STORIES</h1>
+                <article class="border-top pt-3">
+                  <img class="float-left mr-3 mb-1" src="https://d.newsweek.com/en/full/1649420/us-circuit-court-judge-amy-coney-barrett.webp?w=95&h=95&f=0dd98892cdb496b37b150ba9fe645640" alt="more-stories-pic">
+                  <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                  <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </article>
+  
+                <article class="border-top pt-3">
+                  <img class="float-left mr-3 mb-1" src="https://d.newsweek.com/en/full/1649429/california-vote.webp?w=95&h=95&f=66743a902cca93818dcb1319cb3f45db" alt="more-stories-pic">
+                  <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                  <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </article>
+  
+                <article class="border-top pt-3">
+                  <img class="float-left mr-3 mb-1" src="https://d.newsweek.com/en/full/1649442/tom-cotton-attends-senate-banking-committee.webp?w=95&h=95&f=733ca90fc8eb68cc02efa8c145e07211" alt="more-stories-pic">
+                  <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                  <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </article>
+  
+                <article class="border-top pt-3">
+                  <img class="float-left mr-3 mb-1" src="https://d.newsweek.com/en/full/1649411/abraham-lincoln.webp?w=95&h=95&f=2c71453c113825bd82f9aa522e2e57b2" alt="more-stories-pic">
+                  <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                  <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </article>
+  
+                <article class="border-top pt-3">
+                  <img class="float-left mr-3 mb-1" src="https://d.newsweek.com/en/full/1649411/abraham-lincoln.webp?w=95&h=95&f=2c71453c113825bd82f9aa522e2e57b2" alt="more-stories-pic">
+                  <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                  <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </article>
+  
+                <article class="border-top pt-3">
+                  <img class="float-left mr-3 mb-1" src="https://d.newsweek.com/en/full/1649411/abraham-lincoln.webp?w=95&h=95&f=2c71453c113825bd82f9aa522e2e57b2" alt="more-stories-pic">
+                  <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                  <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </article>
+  
+                <article class="border-top pt-3">
+                  <img class="float-left mr-3 mb-1" src="https://d.newsweek.com/en/full/1649411/abraham-lincoln.webp?w=95&h=95&f=2c71453c113825bd82f9aa522e2e57b2" alt="more-stories-pic">
+                  <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                  <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </article>
+  
+                <article class="border-top pt-3">
+                  <img class="float-left mr-3 mb-1" src="https://d.newsweek.com/en/full/1649411/abraham-lincoln.webp?w=95&h=95&f=2c71453c113825bd82f9aa522e2e57b2" alt="more-stories-pic">
+                  <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                  <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </article>
+  
+                <article class="border-top pt-3">
+                  <img class="float-left mr-3 mb-1" src="https://d.newsweek.com/en/full/1649411/abraham-lincoln.webp?w=95&h=95&f=2c71453c113825bd82f9aa522e2e57b2" alt="more-stories-pic">
+                  <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                  <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </article>
+  
+                <article class="border-top pt-3">
+                  <img class="float-left mr-3 mb-1" src="https://d.newsweek.com/en/full/1649197/per-pennsylvania-vote.webp?w=95&h=95&f=add8ffb8654626a64476a0458a0b5f1f" alt="more-stories-pic">
+                  <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                  <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </article>
+  
+                <article class="border-top pt-3">
+                  <img class="float-left mr-3 mb-1" src="https://d.newsweek.com/en/full/1649197/per-pennsylvania-vote.webp?w=95&h=95&f=add8ffb8654626a64476a0458a0b5f1f" alt="more-stories-pic">
+                  <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                  <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </article>
+  
+                <article class="border-top pt-3">
+                  <img class="float-left mr-3 mb-1" src="https://d.newsweek.com/en/full/1649197/per-pennsylvania-vote.webp?w=95&h=95&f=add8ffb8654626a64476a0458a0b5f1f" alt="more-stories-pic">
+                  <a href="#" class="font-title-more-stories" >Switzerland: Innovation Against the Pandemic</a>
+                  <p class="font-p-more-stories mt-3">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </article>
+  
+              </section>
+  
+              <!-- /*=============================================
+              =            Section MY TURN NO. 2         =
+              =============================================*/ -->
+  
+              <section class="medium-none col-12 col-md-6 order-md-3 order-sm-5">
+                <h1 class="story-h1">MY TURN</h1>
+  
+                <div class="row">
+                
+                  <div class="col-md-4" >
+                    <a href="#"><img class="d-block w-100 mb-2" src="https://d.newsweek.com/en/full/1649274/world-war-ii-black-women-african-americans.webp?w=397&h=397&f=715e864fef6bdd356eb1b3d2bb245862" alt="oldest-man"></a>
+                    <a href="#" class="font-p-my-turn">1We Live In A Two Storey Undergrouond Bunker'</a>
+                  </div>
+  
+                  <div class="col-md-4">
+                    <a href="#"><img class="d-block w-100 mb-2" src="https://d.newsweek.com/en/full/1648989/divorce-love-marriage-relationships-australia.webp?w=397&h=397&f=0c9ca506715e2ef81d63e0546d25d597" alt="love"></a>
+                    <a href="#" class="font-p-my-turn">1We Live In A Two Storey Undergrouond Bunker'</a>
+                  </div>
+  
+                  <div class="col-md-4">
+                    <a href="#"><img class="d-block w-100 mb-2" src="https://d.newsweek.com/en/full/1648989/divorce-love-marriage-relationships-australia.webp?w=397&h=397&f=0c9ca506715e2ef81d63e0546d25d597" alt="old-castle"></a>
+                    <a href="#" class="font-p-my-turn">1We Live In A Two Storey Undergrouond Bunker'</a>
+                  </div>
+  
+               
+  
+                  <h1 class="story-h1 mt-3">CULTURE & TRAVEL</h1>
+                  <div class="col-md-4" >
+                    <a href="#"><img class="d-block w-100 mb-2" src="https://d.newsweek.com/en/full/1646134/singapore-airlines.webp?w=397&h=397&f=cd1314e3605caada5183ae4917133d96" alt="travel"></a>
+                    <a href="#" class="font-p-my-turn">1We Live In A Two Storey Undergrouond Bunker'</a>
+                  </div>
+  
+                  <div class="col-md-4">
+                    <a href="#"><img class="d-block w-100 mb-2" src="https://d.newsweek.com/en/full/1645381/100-best-rock-albums-all-time-according-critics.webp?w=397&h=397&f=4fac5a43a9d8890fa4ae6281e59ace15" alt="music"></a>
+                    <a href="#" class="font-p-my-turn">1We Live In A Two Storey Undergrouond Bunker'</a>
+                  </div>
+  
+                  <div class="col-md-4">
+                    <a href="#"><img class="d-block w-100 mb-2" src="https://d.newsweek.com/en/full/1641887/cul-map-wes-anderson-white-cyclon-banner.webp?w=397&h=397&l=57&t=47&f=e5942c36302659ac5aa06f4fe5a7f5f1" alt="wes-anderson"></a>
+                    <a href="#" class="font-p-my-turn">1We Live In A Two Storey Undergrouond Bunker'</a>
+                  </div>
+                </div>  
+                
+              </section>
+  
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="bg-light col-md-6 ml-3 mr-3 border big-none">
+                    <form class="d-flex flex-column align-items-center p-4 text-center" action="/">
+                        <label for="sign-up" class="black-font-big "><img  src="images/news-single.jpg" alt="news week small logo">START YOUR DAY WITH OUR TOP 5 ARTICLES</label>
+                      <input class="w-75 border-light" type="text" placeholder="Email adress" id="sign-in">
+                      <button class="bg-red-news text-white rounded-sm border-0 w-75 mt-2 text-form-size" type="submit">FREE SIGN UP ></button>
+                    </form>
+                  </div>
+                </div>   
+              </div> 
+  
+  
+            <!-- /*=============================================
+            =            Section SPONSORS           =
+            =============================================*/ -->
+  
+            <section class="smaller-none mr-3 ml-3 mt-3 first-sponsor">
+              <article class="border">
+                <a href="#"><img class="mb-3 w-100" src="images/sponsored-img-1.png" alt="sponsored-pic"></a>
+                <div  class="ml-3">
+                  <a class="black-font-big" href="#">Switzerland: Innovation Against the Pandemic</a>
+                  <p class="small-font mr-4 mt-2 text-left">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </div>  
+              </article>
+  
+              <div class="mb-4 mt-4 ml-5 mr-5 border bg-light">
+              <form class="d-flex flex-column align-items-center p-4 text-center" action="/">
+                  <label for="sign-up" class="black-font-big"><img  src="images/in-the-magazine-small-logo.png" alt="news week small logo">START YOUR DAY WITH OUR TOP 5 ARTICLES</label>
+                <input class="w-75 border-light" type="text" placeholder="Email adress" id="sign-up">
+                <button class="bg-red-news text-white rounded-sm border-0 w-75 mt-2 text-form-size" type="submit">FREE SIGN UP ></button>
+              </form>
+              </div>
+  
+              <article class="border">
+                <a href="#"><img class="mb-3 w-100" src="images/sponsored-img-1.png" alt="sponsored-pic"></a>
+                <div  class="ml-3">
+                  <a class="black-font-big" href="#">Switzerland: Innovation Against the Pandemic</a>
+                  <p class="small-font mr-4 mt-2 text-left">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </div>  
+              </article>
+  
+              <article class="border">
+                <a href="#"><img class="mb-3 w-100" src="images/sponsored-img-1.png" alt="sponsored-pic"></a>
+                <div  class="ml-3">
+                  <a class="black-font-big" href="#">Switzerland: Innovation Against the Pandemic</a>
+                  <p class="small-font mr-4 mt-2 text-left">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </div>  
+              </article>
+  
+              <article class="border">
+                <a href="#"><img class="mb-3 w-100" src="images/sponsored-img-1.png" alt="sponsored-pic"></a>
+                <div  class="ml-3">
+                  <a class="black-font-big" href="#">Switzerland: Innovation Against the Pandemic</a>
+                  <p class="small-font mr-4 mt-2 text-left">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </div>  
+              </article>
+  
+              <article class="border">
+                <a href="#"><img class="mb-3 w-100" src="images/sponsored-img-1.png" alt="sponsored-pic"></a>
+                <div  class="ml-3">
+                  <a class="black-font-big" href="#">Switzerland: Innovation Against the Pandemic</a>
+                  <p class="small-font mr-4 mt-2 text-left">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </div>  
+              </article>
+  
+              <article class="border">
+                <a href="#"><img class="mb-3 w-100" src="images/sponsored-img-1.png" alt="sponsored-pic"></a>
+                <div  class="ml-3">
+                  <a class="black-font-big" href="#">Switzerland: Innovation Against the Pandemic</a>
+                  <p class="small-font mr-4 mt-2 text-left">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </div>  
+              </article>
+  
+            </section>
+  
+          
+            <!-- /*=============================================
+            =            Section SPONSORS           =
+            =============================================*/ -->
+  
+            <section class="smaller-none mr-3 ml-3 mt-3 second-sponsor">
+              <article class="border">
+                <a href="#"><img class="mb-3 w-100" src="images/sponsored-img-1.png" alt="sponsored-pic"></a>
+                <div  class="ml-3">
+                  <a class="black-font-big" href="#">Switzerland: Innovation Against the Pandemic</a>
+                  <p class="small-font mr-4 mt-2 text-left">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </div>  
+              </article>
+  
+              <div class="mb-4 mt-4 ml-5 mr-5 border bg-light">
+              <form class="d-flex flex-column align-items-center p-4 text-center" action="/">
+                  <label for="sign-up" class="black-font-big"><img  src="images/in-the-magazine-small-logo.png" alt="news week small logo">START YOUR DAY WITH OUR TOP 5 ARTICLES</label>
+                <input class="w-75 border-light" type="text" placeholder="Email adress">
+                <button class="bg-red-news text-white rounded-sm border-0 w-75 mt-2 text-form-size" type="submit">FREE SIGN UP ></button>
+              </form>
+              </div>
+  
+              <article class="border">
+                <a href="#"><img class="mb-3 w-100" src="images/sponsored-img-1.png" alt="sponsored-pic"></a>
+                <div  class="ml-3">
+                  <a class="black-font-big" href="#">Switzerland: Innovation Against the Pandemic</a>
+                  <p class="small-font mr-4 mt-2 text-left">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </div>  
+              </article>
+  
+              <article class="border">
+                <a href="#"><img class="mb-3 w-100" src="images/sponsored-img-1.png" alt="sponsored-pic"></a>
+                <div  class="ml-3">
+                  <a class="black-font-big" href="#">Switzerland: Innovation Against the Pandemic</a>
+                  <p class="small-font mr-4 mt-2 text-left">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </div>  
+              </article>
+  
+              <article class="border">
+                <a href="#"><img class="mb-3 w-100" src="images/sponsored-img-1.png" alt="sponsored-pic"></a>
+                <div  class="ml-3">
+                  <a class="black-font-big" href="#">Switzerland: Innovation Against the Pandemic</a>
+                  <p class="small-font mr-4 mt-2 text-left">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </div>  
+              </article>
+  
+              <article class="border">
+                <a href="#"><img class="mb-3 w-100" src="images/sponsored-img-1.png" alt="sponsored-pic"></a>
+                <div  class="ml-3">
+                  <a class="black-font-big" href="#">Switzerland: Innovation Against the Pandemic</a>
+                  <p class="small-font mr-4 mt-2 text-left">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </div>  
+              </article>
+  
+              <article class="border">
+                <a href="#"><img class="mb-3 w-100" src="images/sponsored-img-1.png" alt="sponsored-pic"></a>
+                <div  class="ml-3">
+                  <a class="black-font-big" href="#">Switzerland: Innovation Against the Pandemic</a>
+                  <p class="small-font mr-4 mt-2 text-left">Could Switzerland, one of the world’s wealthiest and most innovative nations, hold the answers to the current global economic, social and health crisis?</p>
+                </div>  
+              </article>
+  
+            </section>
+  
+            <!-- /*=============================================
+            =            Section IN THE MAGAZINE           =
+            =============================================*/ -->
+  
+            <section class="mr-3 ml-3 mt-3">
+          
+              <div class="d-flex w-100 justify-content-center mt-3 mb-3 border-bottom">
+                <img src="images/in-the-magazine-small-logo.png" alt="news week small logo">
+                <h4>IN THE MAGAZINE </h4>
+              </div>   
+  
+            <!-- MAIN SECTION IMAGE -->
+  
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-3">
+                  <a href="#"><img class="w-100" src="images/in-the-magazine-main-img.png" alt="magazine picture"></a>
+                  <div class="mb-2 mt-2 text-center">
+                    <a class="black-font-big primary-font" href="#">SEE ALL FEATURES ></a>
+                  </div>
+                  
+                </div>
+  
+                <!-- MAIN SECTION IMAGE -->
+  
+                <div class="mb-4 col-md-3 pt-4 col-lg-3">
+                  <a href="#"><img class="mb-2 w-100 big-img-magazine img-fluid" src="images/magazine-2.webp" alt="woman looking at you"></a>
+                  <img class="mr-2" src="images/cover.png" alt="text saying COVER"><a class="after-cover-text" href="#">U.S.</a>
+                  <a class="d-block black-font-medium" href="#">Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</a>
+                </div>
+  
+                <div class="mb-4 col-md-3 pt-4 col-lg-3">
+                  <a href="#"><img class="mb-2 w-100 big-img-magazine" src="images/magazine-3.webp" alt="woman looking at you"></a>
+                  <img class="mr-2" src="images/cover.png" alt="text saying COVER"><a class="after-cover-text" href="#">U.S.</a>
+                  <a class="d-block black-font-medium" href="#">Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</a>
+                </div>
+  
+                <div class="mb-4 col-md-3 pt-4 col-lg-3">
+                  <a href="#"><img class="mb-2 w-100 big-img-magazine" src="images/magazine-4.webp" alt="woman looking at you"></a>
+                  <img class="mr-2" src="images/cover.png" alt="text saying COVER"><a class="after-cover-text" href="#">U.S.</a>
+                  <a class="d-block black-font-medium" href="#">Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</a>
+                </div>
+  
+                <div class="mb-4 col-md-3 col-lg-3">
+                  <a href="#"><img class="mb-2 w-100 big-img-magazine" src="images/magazine-1.webp" alt="woman looking at you"></a>
+                  <img class="mr-2" src="images/cover.png" alt="text saying COVER"><a class="after-cover-text" href="#">U.S.</a>
+                  <a class="d-block black-font-medium" href="#">Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</a>
+                </div>
+  
+                <div class="mb-4 col-md-3 col-lg-3">
+                  <a href="#"><img class="mb-2 w-100 big-img-magazine" src="images/magazine-4.webp" alt="woman looking at you"></a>
+                  <img class="mr-2" src="images/cover.png" alt="text saying COVER"><a class="after-cover-text" href="#">U.S.</a>
+                  <a class="d-block black-font-medium" href="#">Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</a>
+                </div>
+  
+                <div class="mb-4 col-md-3 col-lg-3">
+                  <a href="#"><img class="mb-2 w-100 big-img-magazine" src="images/magazine-5.webp" alt="woman looking at you"></a>
+                  <img class="mr-2" src="images/cover.png" alt="text saying COVER"><a class="after-cover-text" href="#">U.S.</a>
+                  <a class="d-block black-font-medium" href="#">Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</a>
+                </div>
+  
+                <div class="mb-4 col-md-3 col-lg-3">
+                  <a href="#"><img class="mb-2 w-100 big-img-magazine" src="images/magazine-6.webp" alt="woman looking at you"></a>
+                  <img class="mr-2" src="images/cover.png" alt="text saying COVER"><a class="after-cover-text" href="#">U.S.</a>
+                  <a class="d-block black-font-medium" href="#">Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</a>
+                </div>
+              </div>  
+            </div>  
+  
+          </section>
+  
+          <!-- /*=============================================
+          =            Section EDITOR'S PICK          =
+          =============================================*/ -->
+  
+          <section class="container-fluid border-bottom pb-2">
+            
+            <div class="d-inline-flex w-100 justify-content-center border-bottom mb-3">
+              <img src="images/in-the-magazine-small-logo.png" alt="news week small logo">
+              <h5>EDITOR'S PICK</h5>
+            </div>
+  
+            <div class="row">
+              <article class="col-md-6 col-lg-3">
+                <a  href="#"><img class="mb-2 w-100" src="images/editor-1.webp" alt="donald trump thumbs up"></a>
+                <a class="black-font-big text-font" href="#">What Trump's Physician Said About President Testing Positive for COVID-19</a>
+                <p class="editor-pick-text mt-2 mb-2">The White House medical team and I will maintain a vigilant watch," Sean Conley said in a statement.</p>
+              </article>
+  
+              <article class="col-md-6 col-lg-3">
+                <a  href="#"><img class="mb-2 w-100" src="images/editor-2.webp" alt="donald trump thumbs up"></a>
+                <a class="black-font-big text-font" href="#">What Trump's Physician Said About President Testing Positive for COVID-19</a>
+                <p class="editor-pick-text mt-2 mb-2">The White House medical team and I will maintain a vigilant watch," Sean Conley said in a statement.</p>
+              </article>
+  
+              <article class="col-md-6 col-lg-3">
+                <a  href="#"><img class="mb-2 w-100" src="images/editor-3.webp" alt="donald trump thumbs up"></a>
+                <a class="black-font-big text-font" href="#">What Trump's Physician Said About President Testing Positive for COVID-19</a>
+                <p class="editor-pick-text mt-2 mb-2">The White House medical team and I will maintain a vigilant watch," Sean Conley said in a statement.</p>
+              </article>
+  
+              <article class="col-md-6 col-lg-3">
+                <a  href="#"><img class="mb-2 w-100" src="images/editor-4.webp" alt="donald trump thumbs up"></a>
+                <a class="black-font-big text-font" href="#">What Trump's Physician Said About President Testing Positive for COVID-19</a>
+                <p class="editor-pick-text mt-2 mb-2">The White House medical team and I will maintain a vigilant watch," Sean Conley said in a statement.</p>
+              </article>
+  
+              <article class="col-md-6 col-lg-3">
+                <a  href="#"><img class="mb-2 w-100" src="images/editor-5.png" alt="donald trump thumbs up"></a>
+                <a class="black-font-big text-font" href="#">What Trump's Physician Said About President Testing Positive for COVID-19</a>
+                <p class="editor-pick-text mt-2 mb-2">The White House medical team and I will maintain a vigilant watch," Sean Conley said in a statement.</p>
+              </article>
+  
+              <article class="col-md-6 col-lg-3">
+                <a  href="#"><img class="mb-2 w-100" src="images/editor-6.png" alt="donald trump thumbs up"></a>
+                <a class="black-font-big text-font" href="#">What Trump's Physician Said About President Testing Positive for COVID-19</a>
+                <p class="editor-pick-text mt-2 mb-2">The White House medical team and I will maintain a vigilant watch," Sean Conley said in a statement.</p>
+              </article>
+  
+              <article class="col-md-6 col-lg-3">
+                <a  href="#"><img class="mb-2 w-100" src="images/editor-7.png" alt="donald trump thumbs up"></a>
+                <a class="black-font-big text-font" href="#">What Trump's Physician Said About President Testing Positive for COVID-19</a>
+                <p class="editor-pick-text mt-2 mb-2">The White House medical team and I will maintain a vigilant watch," Sean Conley said in a statement.</p>
+              </article>
+  
+              <article class="col-md-6 col-lg-3">
+                <a  href="#"><img class="mb-2 w-100" src="images/editor-8.png" alt="donald trump thumbs up"></a>
+                <a class="black-font-big text-font" href="#">What Trump's Physician Said About President Testing Positive for COVID-19</a>
+                <p class="editor-pick-text mt-2 mb-2">The White House medical team and I will maintain a vigilant watch," Sean Conley said in a statement.</p>
+              </article>
+            </div>  
+  
+            
+          </section>
+  
+          <!-- /*=============================================
+          =            Section U.S          =
+          =============================================*/ -->
+          <div class="container-fluid">
+            <section class="smaller-none medium-show mt-3 big-show border-top">
+              <h4 class="pt-3 after-cover-text">U.S</h4>
+  
+              <div class="row">
+                <article class="col-md-4">
+                  <a href="#"><img class="mb-2 w-100" src="images/us-1.webp" alt="Joe Biden"></a>
+                  <a class="black-font-news primary-font" href="#"><p>Biden Uses Bloomberg's $1.5 Million to Knock on Doors of Latino, Blacks</p>
+                    </a>
+                </article>
+  
+                <article class="col-md-4">
+                  <a href="#"><img class="mb-2 w-100" src="images/us-2.webp" alt="Joe Biden"></a>
+                  <a class="black-font-news primary-font" href="#"><p>Biden Uses Bloomberg's $1.5 Million to Knock on Doors of Latino, Blacks</p>
+                    </a>
+                </article>
+  
+                <div class="col-md-4">
+                  <div class="border-bottom mt-2 pb-4 w-75">
+                    <a href="#"><img class="float-left pr-3" src="images/us-4.webp" alt="two presidents"></a>
+                    <a href="#"><p class="font-text-us">Candidate For Congress Says He Hopes Trump and Biden Both Die From COVID</p></a>
+                  </div>
+  
+                  <div class="border-bottom mt-2 pb-4 w-75">
+                    <a href="#"><img class="float-left pr-3" src="images/us-4.webp" alt="two presidents"></a>
+                    <a href="#"><p class="font-text-us">Candidate For Congress Says He Hopes Trump and Biden Both Die From COVID</p></a>
+                  </div>
+  
+                  <div class="border-bottom mt-2 pb-4 w-75">
+                    <a href="#"><img class="float-left pr-3" src="images/us-5.webp" alt="two presidents"></a>
+                    <a href="#"><p class="font-text-us">Candidate For Congress Says He Hopes Trump and Biden Both Die From COVID</p></a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- /*=============================================
+          =            Section WORLD          =
+          =============================================*/ -->
+          <div class="container-fluid">
+            <section class="smaller-none medium-show mt-3 big-show border-top">
+              <h4 class="pt-3 after-cover-text">WORLD</h4>
+  
+              <div class="row">
+                <article class="col-md-4">
+                  <a href="#"><img class="mb-2 w-100" src="images/world-1.webp" alt="Joe Biden"></a>
+                  <a class="black-font-news primary-font" href="#"><p>Biden Uses Bloomberg's $1.5 Million to Knock on Doors of Latino, Blacks</p>
+                    </a>
+                </article>
+  
+                <article class="col-md-4">
+                  <a href="#"><img class="mb-2 w-100" src="images/world-2.webp" alt="Joe Biden"></a>
+                  <a class="black-font-news primary-font" href="#"><p>Biden Uses Bloomberg's $1.5 Million to Knock on Doors of Latino, Blacks</p>
+                    </a>
+                </article>
+  
+                <div class="col-md-4">
+                  <div class="border-bottom mt-2 pb-4 w-75">
+                    <a href="#"><img class="float-left pr-3" src="images/world-4.webp" alt="two presidents"></a>
+                    <a href="#"><p class="font-text-us">Candidate For Congress Says He Hopes Trump and Biden Both Die From COVID</p></a>
+                  </div>
+  
+                  <div class="border-bottom mt-2 pb-4 w-75">
+                    <a href="#"><img class="float-left pr-3" src="images/world-4.webp" alt="two presidents"></a>
+                    <a href="#"><p class="font-text-us">Candidate For Congress Says He Hopes Trump and Biden Both Die From COVID</p></a>
+                  </div>
+  
+                  <div class="border-bottom mt-2 pb-4 w-75">
+                    <a href="#"><img class="float-left pr-3" src="images/world-5.webp" alt="two presidents"></a>
+                    <a href="#"><p class="font-text-us">Candidate For Congress Says He Hopes Trump and Biden Both Die From COVID</p></a>
+                  </div>
+                  
+                </div>
+              </div>  
+            </section>
+          </div>  
+  
+    
+          <!-- /*=============================================
+          =            Section BUSINESS          =
+          =============================================*/ -->
+  
+          <div class="container-fluid">  
+            <section class="smaller-none medium-show mt-3 big-show border-top">
+              <h4 class="pt-3 after-cover-text">BUSINESS</h4>
+  
+              <div class="row">
+                <article class="col-md-4">
+                  <a href="#"><img class="mb-2 w-100" src="images/business-1.webp" alt="Joe Biden"></a>
+                  <a class="black-font-news primary-font" href="#"><p>Biden Uses Bloomberg's $1.5 Million to Knock on Doors of Latino, Blacks</p>
+                    </a>
+                </article>
+  
+                <article class="col-md-4">
+                  <a href="#"><img class="mb-2 w-100" src="images/business-2.webp" alt="Joe Biden"></a>
+                  <a class="black-font-news primary-font" href="#"><p>Biden Uses Bloomberg's $1.5 Million to Knock on Doors of Latino, Blacks</p>
+                    </a>
+                </article>
+  
+                <div class="col-md-4">
+                  <div class="border-bottom mt-2 pb-3 w-75">
+                    <a href="#"><img class="float-left pr-3" src="images/business-3.webp" alt="two presidents"></a>
+                    <a href="#"><p class="font-text-us">Candidate For Congress Says He Hopes Trump and Biden Both Die From COVID</p></a>
+                  </div>
+  
+                  <div class="border-bottom mt-2 pb-3 w-75">
+                    <a href="#"><img class="float-left pr-3" src="images/business-3.webp" alt="two presidents"></a>
+                    <a href="#"><p class="font-text-us">Candidate For Congress Says He Hopes Trump and Biden Both Die From COVID</p></a>
+                  </div>
+  
+                  <div class="border-bottom mt-2 pb-4 w-75">
+                    <a href="#"><img class="float-left pr-3" src="images/business-5.webp" alt="two presidents"></a>
+                    <a href="#"><p class="font-text-us">Candidate For Congress Says He Hopes Trump and Biden Both Die From COVID</p></a>
+                  </div>
+                  
+                </div>
+              </div>  
+            </section>
+          </div>  
+  
+    
+          <!-- /*=============================================
+          =            Section TECH AND SCIENCE         =
+          =============================================*/ -->
+          
+          <div class="container-fluid">
+            <section class="smaller-none medium-show mt-3 big-show border-top">
+              <h4 class="pt-3 after-cover-text">TECH AND SCIENCE</h4>
+  
+              <div class="row">
+                <article class="col-md-4">
+                  <a href="#"><img class="mb-2 w-100" src="images/tech-1.webp" alt="Joe Biden"></a>
+                  <a class="black-font-news primary-font" href="#"><p>Biden Uses Bloomberg's $1.5 Million to Knock on Doors of Latino, Blacks</p>
+                    </a>
+                </article>
+  
+                <article class="col-md-4">
+                  <a href="#"><img class="mb-2 w-100" src="images/tech-2.webp" alt="Joe Biden"></a>
+                  <a class="black-font-news primary-font" href="#"><p>Biden Uses Bloomberg's $1.5 Million to Knock on Doors of Latino, Blacks</p>
+                    </a>
+                </article>
+  
+                <div class="col-md-4">
+                  <div class="border-bottom mt-2 pb-3 w-75">
+                    <a href="#"><img class="float-left pr-3" src="images/tech-3.webp" alt="two presidents"></a>
+                    <a href="#"><p class="font-text-us">Candidate For Congress Says He Hopes Trump and Biden Both Die From COVID</p></a>
+                  </div>
+  
+                  <div class="border-bottom mt-2 pb-4 w-75">
+                    <a href="#"><img class="float-left pr-3" src="images/tech-5.webp" alt="two presidents"></a>
+                    <a href="#"><p class="font-text-us">Candidate For Congress Says He Hopes Trump and Biden Both Die From COVID</p></a>
+                  </div>
+  
+                  <div class="border-bottom mt-2 pb-4 w-75">
+                    <a href="#"><img class="float-left pr-3" src="images/tech-5.webp" alt="two presidents"></a>
+                    <a href="#"><p class="font-text-us">Candidate For Congress Says He Hopes Trump and Biden Both Die From COVID</p></a>
+                  </div>
+                  
+                </div>
+              </div>
+            </section>
+          </div>      
+    
+  
+            <!-- /*=============================================
+            =            Section CULTURE         =
+            =============================================*/ -->
+            <div class="container-fluid">
+              <section class="smaller-none medium-show mt-3 big-show border-top">
+                <h4 class="pt-3 after-cover-text">CULTURE</h4>
+  
+                <div class="row">
+                  <article class="col-md-4">
+                    <a href="#"><img class="mb-2 w-100" src="images/culture-1.webp" alt="Joe Biden"></a>
+                    <a class="black-font-news primary-font" href="#"><p>Biden Uses Bloomberg's $1.5 Million to Knock on Doors of Latino, Blacks</p>
+                      </a>
+                  </article>
+  
+                  <article class="col-md-4">
+                    <a href="#"><img class="mb-2 w-100" src="images/culture-2.webp" alt="Joe Biden"></a>
+                    <a class="black-font-news primary-font" href="#"><p>Biden Uses Bloomberg's $1.5 Million to Knock on Doors of Latino, Blacks</p>
+                      </a>
+                  </article>
+  
+                  <div class="col-md-4">
+                    <div class="border-bottom mt-2 pb-3 w-75">
+                      <a href="#"><img class="float-left pr-3" src="images/culture-3.webp" alt="two presidents"></a>
+                      <a href="#"><p class="font-text-us">Candidate For Congress Says He Hopes Trump and Biden Both Die From COVID</p></a>
+                    </div>
+  
+                    <div class="border-bottom mt-2 pb-4 w-75">
+                      <a href="#"><img class="float-left pr-3" src="images/culture-5.webp" alt="two presidents"></a>
+                      <a href="#"><p class="font-text-us">Candidate For Congress Says He Hopes Trump and Biden Both Die From COVID</p></a>
+                    </div>
+  
+                    <div class="border-bottom mt-2 pb-4 w-75">
+                      <a href="#"><img class="float-left pr-3" src="images/culture-5.webp" alt="two presidents"></a>
+                      <a href="#"><p class="font-text-us">Candidate For Congress Says He Hopes Trump and Biden Both Die From COVID</p></a>
+                    </div>
+                    
+                  </div>
+                </div>  
+              </section>
+            </div>  
+  
+    
+            <!-- /*=============================================
+            =            Section SPORTS         =
+            =============================================*/ -->
+            <div class="container-fluid">
+              <section class="smaller-none medium-show mt-3 big-show border-top">
+                <h4 class="pt-3 after-cover-text">SPORTS</h4>
+  
+                <div class="row">
+                  <article class="col-md-4">
+                    <a href="#"><img class="mb-2 w-100" src="images/sports-1.webp" alt="Joe Biden"></a>
+                    <a class="black-font-news primary-font" href="#"><p>Biden Uses Bloomberg's $1.5 Million to Knock on Doors of Latino, Blacks</p>
+                      </a>
+                  </article>
+  
+                  <article class="col-md-4">
+                    <a href="#"><img class="mb-2 w-100" src="images/sports-2.webp" alt="Joe Biden"></a>
+                    <a class="black-font-news primary-font" href="#"><p>Biden Uses Bloomberg's $1.5 Million to Knock on Doors of Latino, Blacks</p>
+                      </a>
+                  </article>
+  
+                  <div class="col-md-4">
+                    <div class="border-bottom mt-2 pb-3 w-75">
+                      <a href="#"><img class="float-left pr-3" src="images/sports-3.webp" alt="two presidents"></a>
+                      <a href="#"><p class="font-text-us">Candidate For Congress Says He Hopes Trump and Biden Both Die From COVID</p></a>
+                    </div>
+  
+                    <div class="border-bottom mt-2 pb-4 w-75">
+                      <a href="#"><img class="float-left pr-3" src="images/sports-4.webp" alt="two presidents"></a>
+                      <a href="#"><p class="font-text-us">Candidate For Congress Says He Hopes Trump and Biden Both Die From COVID</p></a>
+                    </div>
+  
+                    <div class="border-bottom mt-2 pb-4 w-75">
+                      <a href="#"><img class="float-left pr-3" src="images/sports-5.webp" alt="two presidents"></a>
+                      <a href="#"><p class="font-text-us">Candidate For Congress Says He Hopes Trump and Biden Both Die From COVID</p></a>
+                    </div>
+                    
+                  </div>
+                </div>  
+              </section>
+            </div>  
+            
+      
+          <!-- /*=============================================
+          =            Section SUBSCRIBE       =
+          =============================================*/ -->
+        <div class="container-fluid">
+          
+          <div class="row">
+                    
+            <div class="col-lg-6 ml-3 mr-3">
+              <h6 class="after-cover-text subs-title mt-3 ml-3">SUBSCRIBE</h6>
+              <section class="container-fluid mt-3 pt-3 mb-5 pb-3 bg-light border imgs-sec">
+               
+                
+                <div class="row">
+                    
+                  <div class="col-6 col-md-6 col-lg-5 mr-lg-4 mb-5 pb-5 two-img mx-auto w-100">
+                    <!-- <div class="col-sm-6 col-md-6 p-3 position-relative w-100"> -->
+                      <img class="img-fluid img-sub-1 position-absolute" src="images/subscribe-img-1.jpg" alt="magazine cover">
+                      <img class="img-fluid img-sub-2 position-absolute" src="images/subscribe-img2.png" alt="magazine-cover-2">     
+                    <!-- </div> -->
+                  </div>  
+  
+  
+                  <div class="text-md-left text-sm-center text-center text-font mt-5 pt-5 mt-md-0 pt-md-0 col-md-6 col-lg-5 ml-lg-5 d-block mx-auto">
+                    <h6 class="font-weight-bolder mt-4">In-depth Stories You Don't See Elsewhere About Topics You Want to</h6>
+                    <p class="pt-3 pt-md-0">All Access + Weekly Delivery.</p>
+                    <p>Choose A Membership That's Perfect for You!</p>
+                
+                    <button class="subs-btn text-white bg-red-news pt-1 pb-1 pl-1 pr-1 primary-font font-weight-bolder border rounded-sm" type="submit">SUBSCRIBE ></button>
+                  </div>
+                  
+                </div>
+              </section>
+            </div>  
+  
+                  <!-- /*=============================================
+              =            Section NEWSLETTER       =
+              =============================================*/ -->
+            <div class="col-lg-5 mt-3">   
+               <h6 class="after-cover-text subs-title news-6 pt-2 ml-3">NEWSLETTER</h6>     
+              <section class="container-fluid mb-3">
+               
+  
+                <div class="row">
+  
+                  <div class="col-md-6">
+                    <img class="w-100 h-100" src="images/newsletter-img.png" alt="newletter-pic">
+                  </div>
+                  <form class="col-md-6 text-center" action="/">
+                    <h5 class="pt-3">THE STARTING 5</h5>
+                    <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+                    <label class="w-100" for="email">
+                    </label>
+                    <div class="btn-group btn-down w-100">
+                      <input  class="w-75 mb-3 mx-auto" id="email" type="text" placeholder="Email Adress">
+                      <button class="pt-1 pb-1 pl-1 pr-1 mr-3 border bg-red-news text-white sing-btn font-weigth-bolder w-75 n-btn mx-auto" type="submit">FREE SIGN UP ></button>
+                    </div>
+                  </form>
+                </div>    
+  
+              </section>
+            </div>  
+          </div>
+        </div>
+  </main>
+  
+      <!-- /*=============================================
+      =            Section FOOTER       =
+      =============================================*/ -->
+  
+    <footer class="container-fluid pt-5 border-top w-100">
+      <div class="border-bottom d-md-flex d-lg-flex justify-content-md-between justify-content-lg-between w-100">
+        <div class="d-lg-flex align-items-start">
+          <a href="#"><img src="images/footer-logo.png" alt="newsweek red logo"></a>
+          <p class="small-font text-secondary mt-2 ml-2 pt-2">© 2020 NEWSWEEK DIGITAL LLC</p>
+        </div>
+    
+        <ul class="footer-links-list d-flex pt-3">
+          <li>
+           <a href="#"><i class="fab fa-facebook-square text-secondary medium-font mr-2"></i></a>
+         </li>
+          <li>
+           <a href="#"><i class="fab fa-twitter text-secondary medium-font mr-2"></i></a>
+         </li>
+          <li>
+           <a href="#"><i class="fab fa-instagram text-secondary medium-font mr-2"></i></a>
+         </li>
+          <li>
+           <a href="#"><i class="fab fa-tumblr text-secondary medium-font mr-2"></i></a>
+         </li>
+          <li>
+           <a href="#"><i class="fab fa-linkedin-in text-secondary medium-font"></i></a>
+         </li>
+        </ul>
+      </div>
+      <div class="mt-3 container-fluid">
+        
+        <ul class="text-secondary row w-100"> 
+          <li class="mr-2">Editions</li>
+          <li><a class="small-font text-secondary pr-2 mr-2 border-right" href="#">U.S Edition</a></li>
+          <li><a class="small-font text-secondary pr-2 mr-2 border-right" href="#">日本</a></li>
+          <li><a class="small-font text-secondary pr-2 mr-2 border-right" href="#">Pakistan</a></li>
+          <li><a class="small-font text-secondary pr-2 mr-2 border-right" href="#">Polska</a></li>
+          <li><a class="small-font text-secondary pr-2 mr-2" href="#">Romania</a></li>
+        </ul>
+  
+      </div>
+  
+      <div class="container-fluid">
+            
+        <ul class="row">
+          <li><a class="small-font text-secondary pr-2 mr-2 border-right" href="#">About Us</a></li>
+          <li><a class="small-font text-secondary pr-2 mr-2 border-right" href="#">Corrections</a></li>
+          <li><a class="small-font text-secondary pr-2 mr-2 border-right" href="#">Contact Us</a></li>
+          <li><a class="small-font text-secondary pr-2 mr-2 border-right" href="#">Editorial Guidelines</a></li>
+          <li><a class="small-font text-secondary pr-2 mr-2 border-right" href="#">Advertise</a></li>
+          <li><a class="small-font text-secondary pr-2 mr-2 border-right" href="#">Copyright</a></li>
+          <li><a class="small-font text-secondary pr-2 mr-2 border-right" href="#">Terms & Conditions</a></li>
+          <li><a class="small-font text-secondary pr-2 mr-2 border-right" href="#">Privacy Policy</a></li>
+          <li><a class="small-font text-secondary pr-2 mr-2 border-right" href="#">Cookie Policy</a></li>
+          <li><a class="small-font text-secondary pr-2 mr-2 border-right" href="#">Terms of Sales</a></li>
+          <li><a class="small-font text-secondary pr-2" href="#">Archive</a></li>
+          <li><a class="small-font text-secondary pr-2 mr-2 border-right" href="#">Announcements</a></li>
+          <li><a class="small-font text-secondary pr-2 mr-2 border-right" href="#">GDPR Privacy Settings</a></li>
+        </ul>
+      </div>
+    </footer>
+ 
 
 
     <!-- Optional JavaScript -->
