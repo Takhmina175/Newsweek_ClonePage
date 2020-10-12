@@ -22,9 +22,9 @@ Linters errors
 
 ## Authors
 :
-- GitHub: 
-- Twitter: 
-- LinkedIn: 
+- GitHub:[@Takhmina175](https://github.com/Takhmina175) 
+- Twitter:[@Takhmina](https://twitter.com/Takhmin73630110) 
+- LinkedIn:[LinkedIn](https://www.linkedin.com/in/takhmina-makhkamova-7628136b/) 
 
 :silueta_de_busto:  Mir Rawshan Ali
 - GitHub: [@sumon0002009](https://github.com/sumon0002001)
