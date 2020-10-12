@@ -79,7 +79,7 @@
     height: 20px;
   }
   
-  .bg-red-news {
+  .red {
     background: #f72210;
   }
   
@@ -295,7 +295,7 @@
     display: none;
   }
   
-  .smaller-none {
+  .phone-display {
     display: none;
   }
   
