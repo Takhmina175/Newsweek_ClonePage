@@ -25,7 +25,6 @@
   color: black;
   line-height: 1.6rem;
 }
-  
 .black-font-medium {
   font-size: 0.81rem;
   font-weight: bold;
@@ -82,6 +81,9 @@
 }
 /*---FEATURE STORIES-----*/
 .art-story a {
+  font-size: 1.2rem;
+  color: black;
+  line-height: 1.5rem;
   font-size: 1.2rem;
   color: black;
   line-height: 1.5rem;
@@ -197,7 +199,8 @@
     z-index: 999;
   }
 }
-/*----Media query min-width = 768px-----*/
+/*----------Media query min-width = 768px--------*/
+
 @media (min-width: 768px) {
   .login-nav,
   .offer-nav {
