@@ -4,132 +4,83 @@
     box-sizing: border-box;
   }
 
-  header a {
-      color: black;
+header a {
+      color: white;
       font-weight: 700;
       font-size: 1rem;
-  }
+}
 
-.subscribe{
+.bttn-prop-subscr{
+    padding: 0;
+    font-size: 12px;
+    width: 73%;
+    height: 27px;
     border-radius: 15px;
     color: black;
 }
-
+.btn-link-login{
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
 .nav-2 {
   margin-top: 130px;
   padding-left: 20px;
  
-    }
+}
 
 .nav-2 ul li {
-        list-style: none;
-    }
+    list-style: none;
+}
 
+.feature {
+    font-size: 14px;
+}  
 
-  .feature {
-      font-size: 14px;
+.top-story {
+    font-size: 14px;
+}
 
-  }  
+.bck-cl {
+    font-weight: bold;
+}
 
-  @media (min-width: 768px) {
-    .login-nav,
-    .offer-nav {
-      display: none;
-    }
-  
-    .user-nav {
-      display: none;
-      visibility: hidden;
-    }
-  
-    .first-sponsor,
-    .second-sponsor {
-      display: none;
-    }
-  
-    .medium-none {
-      display: none;
-    }
-  
-    .medium-show {
-      display: initial;
-    }
-  
-    .img-sub-1 {
-      left: 40px;
-      top: 0;
-      margin-left: -25px;
-    }
-  
-    .img-sub-2 {
-      left: 20px;
-      top: 8px;
-    }
-  
-    .imgs-sec {
-      height: 280px;
-    }
-  }
-  
-    
+.my-turn {
+    font-size: 14px;
+}
+.cult-trav { 
+    color: black;
+}
 
+.title {
+    font-size: 18px;
+}
 
+.debater {
+    font-size: 12px;
+}
+.articles {
+    border: 1px solid lightgray;
+    margin-top: 23px;
+    margin-left: 17px;
+    margin-right: 17px;
+    background-color: lightgray;
+}
+.articles-title {
+    font-size: 18px;
+    font-weight: bold;
+}
 
-  
-
-  .top-story {
-      font-size: 14px;
-  }
-
-  .bck-cl {
-      font-weight: bold;
-  }
-
-  .my-turn {
-      font-size: 14px;
-  }
-  .cult-trav {
-      
-      color: black;
-  }
-
-  .title {
-      font-size: 18px;
-  }
-
-  .debater {
-      font-size: 12px;
-  }
-
-  .articles {
-      border: 1px solid lightgray;
-      margin-top: 23px;
-      margin-left: 17px;
-      margin-right: 17px;
-      background-color: lightgray;
-  }
-
-  .articles-title {
-      font-size: 18px;
-      font-weight: bold;
-
-  }
-
-  .features {
-      font-size: 16px;
-      text-align: center;
-  }
+.features {
+    font-size: 16px;
+    text-align: center;
+}
 
 .nav-bar-height{
     height: 140px;
     background-color: #fe0500;
     color: white;
-}
-.navbar-logo{
-    width: 28%;
-}
-.navbar-h-tab-mob{
-    height: 100px;
 }
 .br-none{
     border: none;
@@ -162,7 +113,7 @@
 }
 .img{
     background-image: url(https://d.newsweek.com/en/full/1647965/scientist-lab-stock.webp?w=397&h=265&f=3cd244d8481d886c7a016fdf11474a3f);
-      
+     
 }
 .img-prop{
     background-repeat: no-repeat;
@@ -266,87 +217,106 @@
     padding-top: 92%;
     background-position-x: center; 
 }
-
-
 .img6 {
     width: 6rem;
-    height: 6.6rem;
-    
-  }
+    height: 6.6rem;    
+}
+.adam {
+    margin-top: -10px;
+}
 
-  .adam {
-      margin-top: -10px;
-  }
-
-  .red-text  {
-    
+.red-text  {  
     text-decoration: none;
     font-size: 16px;
     line-height: 16px;
+}
 
-  }
-
-  .img9 {
+.img9 {
     background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
     background-size: cover;
     background-repeat: no-repeat;
     height: 30.1rem;
-  }
+}
 
-  
-
-  .red-text a:hover {
+.red-text a:hover {
     color: red;
     text-decoration: none;
     font-weight: bold;
-  }
+}
 
-  .subscribe-2 {
-      padding: 12px;
-      font-size: 16px;
-  }
+.subscribe-2 {
+    padding: 12px;
+    font-size: 16px;
+}
 
-  .topics {
-      background-color: lightgray;
-      margin-left: 20px;
-      width: 60%;
-
-  }
-  .sub {
+.topics {
+    background-color: lightgray;
+    margin-left: 20px;
+    width: 60%;
+}
+.sub {
     background-color: rgba(0, 0, 0, 0.06);
-  }
-
+}
 
 .img8 {
     width: 12rem;
     height: 20rem;
     left: 6rem;
-  }
-  .img7 {
-  
+}
+.img7 {
     width: 12rem;
-    height: 20rem;
-  
-   
-  }
-  .start-card {
+    height: 20rem;  
+}
+.start-card {
     height: 30.3rem;
     width: 100%;
-  }
-  .img {
-      height: auto;
-  }
-
-  .sub-news {
-      margin-bottom: 40px;
-  } 
-
-  .start-title {
-      font-size: 20px;
-  }
-  .p-content {
+}
+.img {
+    height: auto;
+}
+.sub-news {
+    margin-bottom: 40px;
+} 
+.start-title {
+    font-size: 20px;
+}
+.p-content {
       font-size: 12px;
-  }
-  
+}
+
+  @media (min-width: 576px) {
+.diplay-none-md-sm{
+    display: none;
+}
+.navbar-logo{
+    width: 44%;
+}
+.navbar-h-tab-mob{
+    height: 75px;
+}
+.brd-radius{
+    border-radius: 15px;
+}
+.btn-p-h-w{
+    padding: 0.8%;
+    height: 28px;
+    border-radius: 15px;
+    width: 50%;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.icon-opacity{
+    opacity: 0.4;
+}
+.crd-bd-pad-sm{
+    padding: 1.25rem 1.25rem 1.25rem 0rem;
+}
+.bottom-line-width{
+    border-bottom: 1rem solid #aaa;
+}
+
+
+
+}
   
 
