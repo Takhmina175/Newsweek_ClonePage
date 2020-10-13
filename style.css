@@ -14,6 +14,10 @@
 .max-w-total {
   max-width: 1320px;
 }
+
+#newsletter {
+  display: none;
+}
  
 .black-font-big {
   font-size: 1.25rem;
@@ -57,6 +61,8 @@
 .all-feature {
   font-size: 15px;
 }
+
+
 
 .header-logo {
   width: 132px;
@@ -204,6 +210,7 @@
 
 .sign-up {
   margin: 20px;
+
   
 }
 
@@ -281,6 +288,19 @@
   .imgs-sec {
    height: 280px;
   }
+  .sign-up-tablet {
+    display: none;
+  }
+  
+  
+#newsletter {
+  background-color: #f4f5f6;
+  border: 1px solid #e5e5e5;
+  width: 50%;
+  margin: 2rem auto;
+  display: block;
+}
+
 }
 @media (min-width: 992px) {
   .big-show {
@@ -303,4 +323,8 @@
   .imgs-sec {
    height: 300px;
   }
+  #newsletter {
+    display: none;
+  }
+  
 }
