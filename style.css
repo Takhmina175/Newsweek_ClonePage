@@ -12,9 +12,9 @@
 }
 
 .nav-top-2 a {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
-  padding-right: 8px;
+  padding-right: 6px;
 }
  
 .max-w-total {
@@ -91,21 +91,7 @@
   color: #fdc8c3;
 }
  
-.extra-nav {
-  right: 0;
-  top: 0;
-  width: 80px;
-  height: 18px;
-}
- 
-.extra-nav-2 {
-  right: 80px;
-  top: 0;
-  width: 0;
-  height: 0;
-  border-top: 18px solid #f72210;
-  border-left: 20px solid transparent;
-}
+
 
 .art-story a {
   font-size: 1.2rem;
