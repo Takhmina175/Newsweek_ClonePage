@@ -310,6 +310,13 @@
 @media (min-width: 992px) {
   .big-show {
    display: inherit;
+   margin-top: 15px;
+   margin-bottom: 15px;
+
+  }
+
+  .sign-up-desk {
+    margin-left: 10px;
   }
   .big-none {
    display: none;
