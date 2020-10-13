@@ -16,9 +16,7 @@
 }
 
 .nav-top-2 a {
-  font-size: 16px;
   font-weight: bold;
-  padding-right: 6px;
 }
 
 .max-w-total {
@@ -317,7 +315,7 @@
   #newsletter {
     background-color: #f4f5f6;
     border: 1px solid #e5e5e5;
-    width: 50%;
+    width: 100%;
     margin: 2rem auto;
     display: block;
   }
