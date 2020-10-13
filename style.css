@@ -195,8 +195,28 @@
   font-size: 0.8rem;
   overflow: hidden;
   text-overflow: ellipsis;
-  height: 40px;
-  border-radius: 5px;
+  height: 28px;
+  padding-left: 0;
+}
+
+.sign-up {
+  margin: 20px;
+  
+}
+
+.articles img {
+  padding-top: 15px;
+  padding-right: 10px;
+
+}
+
+.email  {
+
+   border-right: none;
+}
+
+.articles-para {
+  height: 12px;
 }
 
 .subs-btn {
