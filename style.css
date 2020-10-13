@@ -5,6 +5,10 @@
   font-size: 16px;
 }
 
+.red {
+  background-color: #f72210;
+}
+
 .text-black {
   color: black;
   font-weight: 900;
@@ -267,6 +271,10 @@
   .login-nav,
   .offer-nav {
     display: initial;
+  }
+
+  .tablet{
+    display: none;
   }
 
   .user-nav {
