@@ -267,11 +267,9 @@
   }
 }
 
-@media (min-width: 992px) {
-  .big-show {
-    display: inherit;
-  }
 
+/* ------Media Query min-widh 992px-------- */
+@media (min-width: 992px) {
   .big-none {
     display: none;
   }
@@ -294,3 +292,5 @@
     height: 300px;
   }
 }
+
+

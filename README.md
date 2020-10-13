@@ -1,12 +1,12 @@
 # Building-NEWSWEEK_CLONEPAGE
 > This page is about how to use bootstrap in the webpage.
-![screenshot](./images/screenshot.png)
+![screenshot](./images/desktop.png)
 The project was created based on an  site of newsweek.com . The goal for this exercise is to start training  to think in terms of making responsive web page using bootstrap framwork.
 ## Built With
 - HTML5
 - CSS3
 ## Live Demo
-[Live Demo Link](https://rawcdn.githack.com/
+[Live Demo Link](https://rawcdn.githack.com/Takhmina175/Newsweek_ClonePage/ec440bb54d970552a26d0dab6f949233f39654eb/index.html)
 ## Getting Started
 **This project was created for the sole purpose of learning how to use bootstrap, how to make responsive web page. The job is to create a responsive website that can changes its content size and position according to its screen size.**
 To get a local copy up and running follow these simple example steps.
@@ -41,4 +41,4 @@ Give a star if you like this project!
 ## Acknowledgments
 - Hat tip to anyone whose code was used
 - Inspiration
-- The Next Web
+- Newsweek
