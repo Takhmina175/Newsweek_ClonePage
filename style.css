@@ -10,6 +10,12 @@
   font-weight: 900;
   font-size: 0.9rem;
 }
+
+.nav-top-2 a {
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 8px;
+}
  
 .max-w-total {
   max-width: 1320px;
