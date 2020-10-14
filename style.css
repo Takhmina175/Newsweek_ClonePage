@@ -271,6 +271,11 @@
     display: initial;
   }
 
+  .bilden {
+    display: flex;
+    flex-direction: row;
+  }
+
   .tablet {
     display: none;
   }
@@ -315,7 +320,7 @@
   #newsletter {
     background-color: #f4f5f6;
     border: 1px solid #e5e5e5;
-    width: 100%;
+    width: 50%;
     margin: 2rem auto;
     display: block;
   }
