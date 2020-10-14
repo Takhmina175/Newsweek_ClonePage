@@ -343,6 +343,10 @@
       display: none;
     }
 
+    .newsletter {
+      padding: 15px;
+    }
+
     .header-logo {
       width: 396px;
       height: 60px;
